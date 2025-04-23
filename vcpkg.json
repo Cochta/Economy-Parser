@@ -1,0 +1,9 @@
+{
+    "name": "economyparser",
+    "version-string": "1.0",
+    "dependencies": [
+          "raylib",
+          "fmt",
+          "imgui"
+      ]
+}
