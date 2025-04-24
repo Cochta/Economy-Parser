@@ -1,8 +1,8 @@
 #pragma once
 
 namespace Metrics {
-	constexpr float WIDTH = 1200;
-	constexpr float HEIGTH = 800;
+	constexpr float WIDTH = 1800;
+	constexpr float HEIGTH = 1000;
 	constexpr float IMAGE_SIZE = 50;
 	constexpr float SCROLLBAR_WIDTH = 30;
 	constexpr float MENU_HEIGHT = 60;

@@ -42,7 +42,7 @@ void Renderer::Draw(void) {
 			DrawRectangle(0, imageY, WIDTH, IMAGE_SIZE, rectColor);
 
 			// Draw background behind each image
-			DrawRectangle(0, imageY, IMAGE_SIZE + MARGIN*2, IMAGE_SIZE, DARKGRAY);
+			DrawRectangle(0, imageY, IMAGE_SIZE + MARGIN * 2, IMAGE_SIZE, DARKGRAY);
 
 			// Draw the image itself
 			images.find(data[0])->second.Draw({ MARGIN, imageY });
@@ -95,17 +95,17 @@ void Renderer::DrawMenu() {
 		if (IsMouseButtonPressed(MOUSE_LEFT_BUTTON) && CheckCollisionPointRec(mousePos, button)) {
 			switch (i) {
 			case 0:
-			// Handle Start Game
-			TraceLog(LOG_INFO, "Feur Clicked");
-			break;
+				// Handle Start Game
+				TraceLog(LOG_INFO, "Feur Clicked");
+				break;
 			case 1:
-			// Handle Settings
-			TraceLog(LOG_INFO, "Poubelle Clicked");
-			break;
+				// Handle Settings
+				TraceLog(LOG_INFO, "Poubelle Clicked");
+				break;
 			case 2:
-			// Handle Exit
-			CloseWindow(); // or trigger exit from game loop
-			break;
+				// Handle Exit
+				CloseWindow(); // or trigger exit from game loop
+				break;
 			}
 		}
 	}
@@ -151,5 +151,10 @@ void Renderer::DrawHeader()
 {
 	// Draw background bar
 	DrawRectangle(0, 60, WIDTH - SCROLLBAR_WIDTH, HEADER_HEIGHT, BLACK); // or any color you like
+
+	DrawText("Items", MARGIN * 0.5, MENU_HEIGHT + MARGIN * 0.6, kFontSize * 0.6, WHITE);
+	DrawText("Name", MARGIN + NAME_OFFSET, MENU_HEIGHT + MARGIN * 0.6, kFontSize * 0.6, WHITE);
+	DrawText("Quantity", MARGIN + NAME_OFFSET + NAME_WIDTH, MENU_HEIGHT + MARGIN * 0.6, kFontSize * 0.6, WHITE);
+	DrawText("Price", MARGIN + NAME_OFFSET + NAME_WIDTH + ECONOMY_WIDTH, MENU_HEIGHT + MARGIN * 0.6, kFontSize * 0.6, WHITE);
 }
 
