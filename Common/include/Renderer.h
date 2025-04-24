@@ -8,7 +8,7 @@
 #include "raymath.h"
 #include <map>
 
-class Network;
+using namespace Metrics;
 
 class Renderer {
 public:
@@ -20,12 +20,6 @@ public:
 	float maxHeight = Metrics::HEIGTH;
 
 	Vector2 mousePos = { 0,0 };
-
-	// Scrollbar sizing
-	float scrollbarWidth = 20.0f;
-	float scrollbarHeight = Metrics::HEIGTH * (Metrics::HEIGTH / maxHeight);
-	float scrollbarY = (scroll / (maxHeight - Metrics::HEIGTH)) * (Metrics::HEIGTH - scrollbarHeight);
-	Rectangle scrollbar = { Metrics::WIDTH - scrollbarWidth, scrollbarY, scrollbarWidth, scrollbarHeight };
 
 	float scroll = 0.0f;
 
@@ -40,5 +34,6 @@ public:
 	void Draw(void);
 	void DrawMenu();
 	void DrawScrollBar();
+	void DrawHeader();
 
 };
