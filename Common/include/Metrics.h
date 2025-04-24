@@ -14,5 +14,5 @@ namespace Metrics {
 	constexpr float NAME_WIDTH = 530;
 	constexpr float ECONOMY_WIDTH = 100;
 
-
+	static constexpr int FONT_SIZE = IMAGE_SIZE * 0.6;
 }

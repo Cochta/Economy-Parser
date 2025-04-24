@@ -13,7 +13,7 @@ using namespace Metrics;
 class Renderer {
 public:
 	Parser parser;
-	static constexpr int kFontSize = 30;
+
 	std::map<std::string,MyImage> images{};
 
 

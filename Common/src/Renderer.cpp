@@ -49,9 +49,9 @@ void Renderer::Draw(void) {
 
 			//draw text
 			Color textColor = (i % 2 == 0) ? BLACK : WHITE;
-			DrawText(data[2].c_str(), MARGIN + NAME_OFFSET, imageY + MARGIN * 1.8f, kFontSize, textColor);
-			DrawText(data[3].c_str(), MARGIN + NAME_OFFSET + NAME_WIDTH, imageY + MARGIN * 1.8f, kFontSize, textColor);
-			DrawText(data[4].c_str(), MARGIN + NAME_OFFSET + NAME_WIDTH + ECONOMY_WIDTH, imageY + MARGIN * 1.8f, kFontSize, textColor);
+			DrawText(data[2].c_str(), MARGIN + NAME_OFFSET, imageY + MARGIN * 1.8f, FONT_SIZE, textColor);
+			DrawText(data[3].c_str(), MARGIN + NAME_OFFSET + NAME_WIDTH, imageY + MARGIN * 1.8f, FONT_SIZE, textColor);
+			DrawText(data[4].c_str(), MARGIN + NAME_OFFSET + NAME_WIDTH + ECONOMY_WIDTH, imageY + MARGIN * 1.8f, FONT_SIZE, textColor);
 
 
 			y += IMAGE_SIZE;
@@ -152,9 +152,9 @@ void Renderer::DrawHeader()
 	// Draw background bar
 	DrawRectangle(0, 60, WIDTH - SCROLLBAR_WIDTH, HEADER_HEIGHT, BLACK); // or any color you like
 
-	DrawText("Items", MARGIN * 0.5, MENU_HEIGHT + MARGIN * 0.6, kFontSize * 0.6, WHITE);
-	DrawText("Name", MARGIN + NAME_OFFSET, MENU_HEIGHT + MARGIN * 0.6, kFontSize * 0.6, WHITE);
-	DrawText("Quantity", MARGIN + NAME_OFFSET + NAME_WIDTH, MENU_HEIGHT + MARGIN * 0.6, kFontSize * 0.6, WHITE);
-	DrawText("Price", MARGIN + NAME_OFFSET + NAME_WIDTH + ECONOMY_WIDTH, MENU_HEIGHT + MARGIN * 0.6, kFontSize * 0.6, WHITE);
+	DrawText("Items", MARGIN * 0.5, MENU_HEIGHT + MARGIN * 0.6, FONT_SIZE * 0.6, WHITE);
+	DrawText("Name", MARGIN + NAME_OFFSET, MENU_HEIGHT + MARGIN * 0.6, FONT_SIZE * 0.6, WHITE);
+	DrawText("Quantity", MARGIN + NAME_OFFSET + NAME_WIDTH, MENU_HEIGHT + MARGIN * 0.6, FONT_SIZE * 0.6, WHITE);
+	DrawText("Price", MARGIN + NAME_OFFSET + NAME_WIDTH + ECONOMY_WIDTH, MENU_HEIGHT + MARGIN * 0.6, FONT_SIZE * 0.6, WHITE);
 }
 
