@@ -1,23 +1,20 @@
 #pragma once
-
-//#include <fmt/core.h>
-#include <filesystem>
-
 #include <string>
 #include <iostream>
 #include <raylib.h>
 #include "MyImage.h"
 #include <vector>
-#include "Metrics.h"
+#include "Parser.h"
 #include "raymath.h"
+#include <map>
 
 class Network;
 
 class Renderer {
 public:
-
+	Parser parser;
 	static constexpr int kFontSize = 30;
-	std::vector<MyImage> images{};
+	std::map<std::string,MyImage> images{};
 
 
 	float maxHeight = Metrics::HEIGTH;

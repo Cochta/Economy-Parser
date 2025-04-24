@@ -3,6 +3,16 @@
 
 void Renderer::Setup() {
 	//goal_left_.Setup("minecraft_tnt.png", { 200, 200 }, Offset::DownLeft);
+
+	parser.Setup();
+	Loader loader;
+	for (auto row : parser.Data)
+	{
+		MyImage image = loader.loadImage("Release/ressource/1.21.5/" + row[1], {Metrics::IMAGE_SIZE, Metrics::IMAGE_SIZE}, Offset::DownLeft);
+		printf("%s\n", row[1].c_str());
+		images.emplace(row[0], image);
+	}
+
 	maxHeight = images.size() * Metrics::IMAGE_SIZE + 10;
 }
 
@@ -26,7 +36,7 @@ void Renderer::Draw(void) {
 		int i = 0;
 		float y = 0;
 
-		for (MyImage& image : images) {
+		for (auto data : parser.Data) {
 			float imageY = 60 + y - scroll;
 
 			Color rectColor = (i % 2 == 0) ? Color{ 245, 245, 220, 255 } : Color{ 84, 70, 58, 255 };
@@ -35,7 +45,14 @@ void Renderer::Draw(void) {
 			DrawRectangle(0, imageY, Metrics::WIDTH, Metrics::IMAGE_SIZE, rectColor);
 
 			// Draw the image itself
-			image.Draw({ 0, imageY });
+			images.find(data[0])->second.Draw({ 0, imageY });
+
+			//draw text
+			Color textColor = (i % 2 == 0) ? BLACK : WHITE;
+			DrawText(data[2].c_str(), 70, imageY + 20, kFontSize, textColor);
+			DrawText(data[3].c_str(), 600, imageY + 20, kFontSize, textColor);
+			DrawText(data[4].c_str(), 700, imageY + 20, kFontSize, textColor);
+			
 
 			y += Metrics::IMAGE_SIZE;
 			i++;

@@ -23,7 +23,7 @@ std::vector<std::vector<std::string>> Reader::readCSV(const std::string& fileNam
 
 		data.push_back(elements);
 		ElementCount++;
-		//printf("Nom: %s | Quantité: %s | Prix: %s\n", elements[0].c_str(), elements[2].c_str(), elements[3].c_str());
+		//printf("Nom: %s | Quantité: %s | Prix: %s\n", elements[0].c_str(), elements[1].c_str(), elements[2].c_str());
 	}
 
 	file.close();
