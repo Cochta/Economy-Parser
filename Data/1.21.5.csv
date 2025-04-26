@@ -1,48 +1,48 @@
-minecraft:acacia_boat,minecraft_acacia_boat.png,acacia boat,0,0
-minecraft:acacia_button,minecraft_acacia_button.png,acacia button,0,0
-minecraft:acacia_chest_boat,minecraft_acacia_chest_boat.png,acacia chest boat,0,0
-minecraft:acacia_door,minecraft_acacia_door.png,acacia door,0,0
-minecraft:acacia_fence,minecraft_acacia_fence.png,acacia fence,0,0
-minecraft:acacia_fence_gate,minecraft_acacia_fence_gate.png,acacia fence gate,0,0
-minecraft:acacia_hanging_sign,minecraft_acacia_hanging_sign.png,acacia hanging sign,0,0
-minecraft:acacia_leaves,minecraft_acacia_leaves.png,acacia leaves,0,0
-minecraft:acacia_log,minecraft_acacia_log.png,acacia log,0,0
-minecraft:acacia_planks,minecraft_acacia_planks.png,acacia planks,0,0
-minecraft:acacia_pressure_plate,minecraft_acacia_pressure_plate.png,acacia pressure plate,0,0
-minecraft:acacia_sapling,minecraft_acacia_sapling.png,acacia sapling,0,0
-minecraft:acacia_sign,minecraft_acacia_sign.png,acacia sign,0,0
-minecraft:acacia_slab,minecraft_acacia_slab.png,acacia slab,0,0
-minecraft:acacia_stairs,minecraft_acacia_stairs.png,acacia stairs,0,0
-minecraft:acacia_trapdoor,minecraft_acacia_trapdoor.png,acacia trapdoor,0,0
-minecraft:acacia_wood,minecraft_acacia_wood.png,acacia wood,0,0
-minecraft:activator_rail,minecraft_activator_rail.png,activator rail,0,0
-minecraft:air,minecraft_air.png,air,0,0
-minecraft:allay_spawn_egg,minecraft_allay_spawn_egg.png,allay spawn egg,0,0
-minecraft:allium,minecraft_allium.png,allium,0,0
-minecraft:amethyst_block,minecraft_amethyst_block.png,amethyst block,0,0
-minecraft:amethyst_cluster,minecraft_amethyst_cluster.png,amethyst cluster,0,0
-minecraft:amethyst_shard,minecraft_amethyst_shard.png,amethyst shard,0,0
-minecraft:ancient_debris,minecraft_ancient_debris.png,ancient debris,0,0
-minecraft:andesite,minecraft_andesite.png,andesite,0,0
-minecraft:andesite_slab,minecraft_andesite_slab.png,andesite slab,0,0
-minecraft:andesite_stairs,minecraft_andesite_stairs.png,andesite stairs,0,0
-minecraft:andesite_wall,minecraft_andesite_wall.png,andesite wall,0,0
-minecraft:angler_pottery_sherd,minecraft_angler_pottery_sherd.png,angler pottery sherd,0,0
-minecraft:anvil,minecraft_anvil.png,anvil,0,0
-minecraft:apple,minecraft_apple.png,apple,0,0
-minecraft:archer_pottery_sherd,minecraft_archer_pottery_sherd.png,archer pottery sherd,0,0
-minecraft:armadillo_scute,minecraft_armadillo_scute.png,armadillo scute,0,0
-minecraft:armadillo_spawn_egg,minecraft_armadillo_spawn_egg.png,armadillo spawn egg,0,0
-minecraft:armor_stand,minecraft_armor_stand.png,armor stand,0,0
-minecraft:arms_up_pottery_sherd,minecraft_arms_up_pottery_sherd.png,arms up pottery sherd,0,0
-minecraft:arrow,minecraft_arrow.png,arrow,0,0
-minecraft:axolotl_bucket,minecraft_axolotl_bucket.png,axolotl bucket,0,0
-minecraft:axolotl_spawn_egg,minecraft_axolotl_spawn_egg.png,axolotl spawn egg,0,0
-minecraft:azalea,minecraft_azalea.png,azalea,0,0
-minecraft:azalea_leaves,minecraft_azalea_leaves.png,azalea leaves,0,0
-minecraft:azure_bluet,minecraft_azure_bluet.png,azure bluet,0,0
-minecraft:baked_potato,minecraft_baked_potato.png,baked potato,0,0
-minecraft:bamboo,minecraft_bamboo.png,bamboo,0,0
+minecraft:acacia_boat,minecraft_acacia_boat.png,acacia boat,4,2
+minecraft:acacia_button,minecraft_acacia_button.png,acacia button,0,3
+minecraft:acacia_chest_boat,minecraft_acacia_chest_boat.png,acacia chest boat,1,25
+minecraft:acacia_door,minecraft_acacia_door.png,acacia door,5,7
+minecraft:acacia_fence,minecraft_acacia_fence.png,acacia fence,1,1
+minecraft:acacia_fence_gate,minecraft_acacia_fence_gate.png,acacia fence gate,2,1
+minecraft:acacia_hanging_sign,minecraft_acacia_hanging_sign.png,acacia hanging sign,3,6
+minecraft:acacia_leaves,minecraft_acacia_leaves.png,acacia leaves,64,1
+minecraft:acacia_log,minecraft_acacia_log.png,acacia log,32,2
+minecraft:acacia_planks,minecraft_acacia_planks.png,acacia planks,4,4
+minecraft:acacia_pressure_plate,minecraft_acacia_pressure_plate.png,acacia pressure plate,4,4
+minecraft:acacia_sapling,minecraft_acacia_sapling.png,acacia sapling,4,4
+minecraft:acacia_sign,minecraft_acacia_sign.png,acacia sign,4,4
+minecraft:acacia_slab,minecraft_acacia_slab.png,acacia slab,4,4
+minecraft:acacia_stairs,minecraft_acacia_stairs.png,acacia stairs,4,4
+minecraft:acacia_trapdoor,minecraft_acacia_trapdoor.png,acacia trapdoor,4,4
+minecraft:acacia_wood,minecraft_acacia_wood.png,acacia wood,4,4
+minecraft:activator_rail,minecraft_activator_rail.png,activator rail,4,4
+minecraft:air,minecraft_air.png,air,4,4
+minecraft:allay_spawn_egg,minecraft_allay_spawn_egg.png,allay spawn egg,4,4
+minecraft:allium,minecraft_allium.png,allium,4,4
+minecraft:amethyst_block,minecraft_amethyst_block.png,amethyst block,4,4
+minecraft:amethyst_cluster,minecraft_amethyst_cluster.png,amethyst cluster,4,4
+minecraft:amethyst_shard,minecraft_amethyst_shard.png,amethyst shard,4,4
+minecraft:ancient_debris,minecraft_ancient_debris.png,ancient debris,4,4
+minecraft:andesite,minecraft_andesite.png,andesite,4,4
+minecraft:andesite_slab,minecraft_andesite_slab.png,andesite slab,4,4
+minecraft:andesite_stairs,minecraft_andesite_stairs.png,andesite stairs,4,4
+minecraft:andesite_wall,minecraft_andesite_wall.png,andesite wall,4,4
+minecraft:angler_pottery_sherd,minecraft_angler_pottery_sherd.png,angler pottery sherd,4,4
+minecraft:anvil,minecraft_anvil.png,anvil,4,4
+minecraft:apple,minecraft_apple.png,apple,4,4
+minecraft:archer_pottery_sherd,minecraft_archer_pottery_sherd.png,archer pottery sherd,4,4
+minecraft:armadillo_scute,minecraft_armadillo_scute.png,armadillo scute,4,4
+minecraft:armadillo_spawn_egg,minecraft_armadillo_spawn_egg.png,armadillo spawn egg,4,4
+minecraft:armor_stand,minecraft_armor_stand.png,armor stand,4,4
+minecraft:arms_up_pottery_sherd,minecraft_arms_up_pottery_sherd.png,arms up pottery sherd,4,4
+minecraft:arrow,minecraft_arrow.png,arrow,4,4
+minecraft:axolotl_bucket,minecraft_axolotl_bucket.png,axolotl bucket,4,4
+minecraft:axolotl_spawn_egg,minecraft_axolotl_spawn_egg.png,axolotl spawn egg,4,4
+minecraft:azalea,minecraft_azalea.png,azalea,4,4
+minecraft:azalea_leaves,minecraft_azalea_leaves.png,azalea leaves,4,4
+minecraft:azure_bluet,minecraft_azure_bluet.png,azure bluet,4,4
+minecraft:baked_potato,minecraft_baked_potato.png,baked potato,4,4
+minecraft:bamboo,minecraft_bamboo.png,bamboo,4,4
 minecraft:bamboo_block,minecraft_bamboo_block.png,bamboo block,0,0
 minecraft:bamboo_button,minecraft_bamboo_button.png,bamboo button,0,0
 minecraft:bamboo_chest_raft,minecraft_bamboo_chest_raft.png,bamboo chest raft,0,0

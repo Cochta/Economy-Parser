@@ -13,6 +13,11 @@ namespace Metrics {
 	constexpr float NAME_OFFSET = 70;
 	constexpr float NAME_WIDTH = 530;
 	constexpr float ECONOMY_WIDTH = 100;
+	constexpr float TEXTBOX_WIDTH = 200;
 
-	static constexpr int FONT_SIZE = IMAGE_SIZE * 0.6;
+	constexpr int FONT_SIZE = IMAGE_SIZE * 0.6;
+
+	constexpr int STACK_SIZE = 64;
+	constexpr int SHULKER_SIZE = 27;
+	constexpr int DC_SIZE = 54;
 }

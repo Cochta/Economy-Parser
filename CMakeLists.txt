@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(rollback_game)
+project(economy_parser)
 
 set(CMAKE_CXX_STANDARD 17)
 
@@ -42,7 +42,7 @@ file(GLOB_RECURSE COMMON_FILES common/include/*.h common/src/*.cpp)
 add_library(Common ${COMMON_FILES})
 set_target_properties(Common PROPERTIES LINKER_LANGUAGE CXX)
 target_include_directories(Common PUBLIC common/include/)
-target_link_libraries(Common PUBLIC raylib)
+target_link_libraries(Common PUBLIC raylib fmt::fmt)
 
 add_executable(main main.cpp)
 target_link_libraries(main PRIVATE Common)

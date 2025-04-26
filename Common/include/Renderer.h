@@ -7,6 +7,7 @@
 #include "Parser.h"
 #include "raymath.h"
 #include <map>
+#include <fmt/core.h>
 
 using namespace Metrics;
 
