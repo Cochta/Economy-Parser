@@ -1,45 +1,1396 @@
-minecraft:acacia_boat,minecraft_acacia_boat.png,acacia boat,4,2
-minecraft:acacia_button,minecraft_acacia_button.png,acacia button,0,3
-minecraft:acacia_chest_boat,minecraft_acacia_chest_boat.png,acacia chest boat,1,25
-minecraft:acacia_door,minecraft_acacia_door.png,acacia door,5,7
-minecraft:acacia_fence,minecraft_acacia_fence.png,acacia fence,1,1
-minecraft:acacia_fence_gate,minecraft_acacia_fence_gate.png,acacia fence gate,2,2
-minecraft:acacia_hanging_sign,minecraft_acacia_hanging_sign.png,acacia hanging sign,3,3
-minecraft:acacia_leaves,minecraft_acacia_leaves.png,acacia leaves,4,4
-minecraft:acacia_log,minecraft_acacia_log.png,acacia log,5,5
-minecraft:acacia_planks,minecraft_acacia_planks.png,acacia planks,4,4
-minecraft:acacia_pressure_plate,minecraft_acacia_pressure_plate.png,acacia pressure plate,4,4
-minecraft:acacia_sapling,minecraft_acacia_sapling.png,acacia sapling,4,4
-minecraft:acacia_sign,minecraft_acacia_sign.png,acacia sign,4,4
-minecraft:acacia_slab,minecraft_acacia_slab.png,acacia slab,4,4
-minecraft:acacia_stairs,minecraft_acacia_stairs.png,acacia stairs,4,4
-minecraft:acacia_trapdoor,minecraft_acacia_trapdoor.png,acacia trapdoor,4,4
-minecraft:acacia_wood,minecraft_acacia_wood.png,acacia wood,4,4
-minecraft:activator_rail,minecraft_activator_rail.png,activator rail,4,4
-minecraft:air,minecraft_air.png,air,4,4
-minecraft:allay_spawn_egg,minecraft_allay_spawn_egg.png,allay spawn egg,4,4
-minecraft:allium,minecraft_allium.png,allium,4,4
-minecraft:amethyst_block,minecraft_amethyst_block.png,amethyst block,4,4
-minecraft:amethyst_cluster,minecraft_amethyst_cluster.png,amethyst cluster,4,4
-minecraft:amethyst_shard,minecraft_amethyst_shard.png,amethyst shard,4,4
-minecraft:ancient_debris,minecraft_ancient_debris.png,ancient debris,4,4
-minecraft:andesite,minecraft_andesite.png,andesite,4,4
-minecraft:andesite_slab,minecraft_andesite_slab.png,andesite slab,4,4
-minecraft:andesite_stairs,minecraft_andesite_stairs.png,andesite stairs,4,4
-minecraft:andesite_wall,minecraft_andesite_wall.png,andesite wall,4,4
-minecraft:angler_pottery_sherd,minecraft_angler_pottery_sherd.png,angler pottery sherd,4,4
-minecraft:anvil,minecraft_anvil.png,anvil,4,4
-minecraft:apple,minecraft_apple.png,apple,4,4
-minecraft:archer_pottery_sherd,minecraft_archer_pottery_sherd.png,archer pottery sherd,4,4
-minecraft:armadillo_scute,minecraft_armadillo_scute.png,armadillo scute,4,4
-minecraft:armadillo_spawn_egg,minecraft_armadillo_spawn_egg.png,armadillo spawn egg,4,4
-minecraft:armor_stand,minecraft_armor_stand.png,armor stand,4,4
-minecraft:arms_up_pottery_sherd,minecraft_arms_up_pottery_sherd.png,arms up pottery sherd,4,4
-minecraft:arrow,minecraft_arrow.png,arrow,4,4
-minecraft:axolotl_bucket,minecraft_axolotl_bucket.png,axolotl bucket,4,4
-minecraft:axolotl_spawn_egg,minecraft_axolotl_spawn_egg.png,axolotl spawn egg,4,4
-minecraft:azalea,minecraft_azalea.png,azalea,4,4
-minecraft:azalea_leaves,minecraft_azalea_leaves.png,azalea leaves,4,4
-minecraft:azure_bluet,minecraft_azure_bluet.png,azure bluet,4,4
-minecraft:baked_potato,minecraft_baked_potato.png,baked potato,4,4
-minecraft:bamboo,minecraft_bamboo.png,bamboo,4,4
+minecraft:acacia_boat,minecraft_acacia_boat.png,acacia boat,100,95
+minecraft:acacia_button,minecraft_acacia_button.png,acacia button,92,28
+minecraft:acacia_chest_boat,minecraft_acacia_chest_boat.png,acacia chest boat,43,4
+minecraft:acacia_door,minecraft_acacia_door.png,acacia door,27,66
+minecraft:acacia_fence,minecraft_acacia_fence.png,acacia fence,81,28
+minecraft:acacia_fence_gate,minecraft_acacia_fence_gate.png,acacia fence gate,88,71
+minecraft:acacia_hanging_sign,minecraft_acacia_hanging_sign.png,acacia hanging sign,41,32
+minecraft:acacia_leaves,minecraft_acacia_leaves.png,acacia leaves,16,3
+minecraft:acacia_log,minecraft_acacia_log.png,acacia log,95,66
+minecraft:acacia_planks,minecraft_acacia_planks.png,acacia planks,56,22
+minecraft:acacia_pressure_plate,minecraft_acacia_pressure_plate.png,acacia pressure plate,66,9
+minecraft:acacia_sapling,minecraft_acacia_sapling.png,acacia sapling,36,77
+minecraft:acacia_sign,minecraft_acacia_sign.png,acacia sign,84,77
+minecraft:acacia_slab,minecraft_acacia_slab.png,acacia slab,70,67
+minecraft:acacia_stairs,minecraft_acacia_stairs.png,acacia stairs,41,12
+minecraft:acacia_trapdoor,minecraft_acacia_trapdoor.png,acacia trapdoor,30,15
+minecraft:acacia_wood,minecraft_acacia_wood.png,acacia wood,73,37
+minecraft:activator_rail,minecraft_activator_rail.png,activator rail,66,64
+minecraft:air,minecraft_air.png,air,70,46
+minecraft:allay_spawn_egg,minecraft_allay_spawn_egg.png,allay spawn egg,23,64
+minecraft:allium,minecraft_allium.png,allium,63,20
+minecraft:amethyst_block,minecraft_amethyst_block.png,amethyst block,100,85
+minecraft:amethyst_cluster,minecraft_amethyst_cluster.png,amethyst cluster,84,27
+minecraft:amethyst_shard,minecraft_amethyst_shard.png,amethyst shard,48,1
+minecraft:ancient_debris,minecraft_ancient_debris.png,ancient debris,39,37
+minecraft:andesite,minecraft_andesite.png,andesite,76,12
+minecraft:andesite_slab,minecraft_andesite_slab.png,andesite slab,23,14
+minecraft:andesite_stairs,minecraft_andesite_stairs.png,andesite stairs,73,80
+minecraft:andesite_wall,minecraft_andesite_wall.png,andesite wall,48,57
+minecraft:angler_pottery_sherd,minecraft_angler_pottery_sherd.png,angler pottery sherd,71,19
+minecraft:anvil,minecraft_anvil.png,anvil,14,71
+minecraft:apple,minecraft_apple.png,apple,85,3
+minecraft:archer_pottery_sherd,minecraft_archer_pottery_sherd.png,archer pottery sherd,48,0
+minecraft:armadillo_scute,minecraft_armadillo_scute.png,armadillo scute,95,53
+minecraft:armadillo_spawn_egg,minecraft_armadillo_spawn_egg.png,armadillo spawn egg,13,87
+minecraft:armor_stand,minecraft_armor_stand.png,armor stand,37,63
+minecraft:arms_up_pottery_sherd,minecraft_arms_up_pottery_sherd.png,arms up pottery sherd,62,15
+minecraft:arrow,minecraft_arrow.png,arrow,12,9
+minecraft:axolotl_bucket,minecraft_axolotl_bucket.png,axolotl bucket,32,31
+minecraft:axolotl_spawn_egg,minecraft_axolotl_spawn_egg.png,axolotl spawn egg,69,91
+minecraft:azalea,minecraft_azalea.png,azalea,62,32
+minecraft:azalea_leaves,minecraft_azalea_leaves.png,azalea leaves,18,17
+minecraft:azure_bluet,minecraft_azure_bluet.png,azure bluet,60,52
+minecraft:baked_potato,minecraft_baked_potato.png,baked potato,71,21
+minecraft:bamboo,minecraft_bamboo.png,bamboo,77,90
+minecraft:bamboo_block,minecraft_bamboo_block.png,bamboo block,34,72
+minecraft:bamboo_button,minecraft_bamboo_button.png,bamboo button,64,22
+minecraft:bamboo_chest_raft,minecraft_bamboo_chest_raft.png,bamboo chest raft,37,58
+minecraft:bamboo_door,minecraft_bamboo_door.png,bamboo door,19,60
+minecraft:bamboo_fence,minecraft_bamboo_fence.png,bamboo fence,39,72
+minecraft:bamboo_fence_gate,minecraft_bamboo_fence_gate.png,bamboo fence gate,64,52
+minecraft:bamboo_hanging_sign,minecraft_bamboo_hanging_sign.png,bamboo hanging sign,30,93
+minecraft:bamboo_mosaic,minecraft_bamboo_mosaic.png,bamboo mosaic,6,79
+minecraft:bamboo_mosaic_slab,minecraft_bamboo_mosaic_slab.png,bamboo mosaic slab,76,8
+minecraft:bamboo_mosaic_stairs,minecraft_bamboo_mosaic_stairs.png,bamboo mosaic stairs,53,85
+minecraft:bamboo_planks,minecraft_bamboo_planks.png,bamboo planks,22,25
+minecraft:bamboo_pressure_plate,minecraft_bamboo_pressure_plate.png,bamboo pressure plate,52,67
+minecraft:bamboo_raft,minecraft_bamboo_raft.png,bamboo raft,21,20
+minecraft:bamboo_sign,minecraft_bamboo_sign.png,bamboo sign,35,3
+minecraft:bamboo_slab,minecraft_bamboo_slab.png,bamboo slab,90,47
+minecraft:bamboo_stairs,minecraft_bamboo_stairs.png,bamboo stairs,100,58
+minecraft:bamboo_trapdoor,minecraft_bamboo_trapdoor.png,bamboo trapdoor,56,25
+minecraft:barrel,minecraft_barrel.png,barrel,63,90
+minecraft:barrier,minecraft_barrier.png,barrier,100,60
+minecraft:basalt,minecraft_basalt.png,basalt,66,45
+minecraft:bat_spawn_egg,minecraft_bat_spawn_egg.png,bat spawn egg,38,52
+minecraft:beacon,minecraft_beacon.png,beacon,9,27
+minecraft:bedrock,minecraft_bedrock.png,bedrock,57,4
+minecraft:beef,minecraft_beef.png,beef,91,31
+minecraft:beehive,minecraft_beehive.png,beehive,64,89
+minecraft:beetroot,minecraft_beetroot.png,beetroot,66,62
+minecraft:beetroot_seeds,minecraft_beetroot_seeds.png,beetroot seeds,56,6
+minecraft:beetroot_soup,minecraft_beetroot_soup.png,beetroot soup,56,40
+minecraft:bee_nest,minecraft_bee_nest.png,bee nest,95,4
+minecraft:bee_spawn_egg,minecraft_bee_spawn_egg.png,bee spawn egg,23,44
+minecraft:bell,minecraft_bell.png,bell,73,37
+minecraft:big_dripleaf,minecraft_big_dripleaf.png,big dripleaf,97,19
+minecraft:birch_boat,minecraft_birch_boat.png,birch boat,18,58
+minecraft:birch_button,minecraft_birch_button.png,birch button,74,64
+minecraft:birch_chest_boat,minecraft_birch_chest_boat.png,birch chest boat,68,23
+minecraft:birch_door,minecraft_birch_door.png,birch door,71,58
+minecraft:birch_fence,minecraft_birch_fence.png,birch fence,60,33
+minecraft:birch_fence_gate,minecraft_birch_fence_gate.png,birch fence gate,2,44
+minecraft:birch_hanging_sign,minecraft_birch_hanging_sign.png,birch hanging sign,49,88
+minecraft:birch_leaves,minecraft_birch_leaves.png,birch leaves,26,67
+minecraft:birch_log,minecraft_birch_log.png,birch log,9,48
+minecraft:birch_planks,minecraft_birch_planks.png,birch planks,67,63
+minecraft:birch_pressure_plate,minecraft_birch_pressure_plate.png,birch pressure plate,2,38
+minecraft:birch_sapling,minecraft_birch_sapling.png,birch sapling,22,20
+minecraft:birch_sign,minecraft_birch_sign.png,birch sign,69,89
+minecraft:birch_slab,minecraft_birch_slab.png,birch slab,30,29
+minecraft:birch_stairs,minecraft_birch_stairs.png,birch stairs,26,27
+minecraft:birch_trapdoor,minecraft_birch_trapdoor.png,birch trapdoor,0,50
+minecraft:birch_wood,minecraft_birch_wood.png,birch wood,81,46
+minecraft:blackstone,minecraft_blackstone.png,blackstone,92,20
+minecraft:blackstone_slab,minecraft_blackstone_slab.png,blackstone slab,17,27
+minecraft:blackstone_stairs,minecraft_blackstone_stairs.png,blackstone stairs,18,54
+minecraft:blackstone_wall,minecraft_blackstone_wall.png,blackstone wall,22,8
+minecraft:black_banner,minecraft_black_banner.png,black banner,14,3
+minecraft:black_bed,minecraft_black_bed.png,black bed,94,67
+minecraft:black_bundle,minecraft_black_bundle.png,black bundle,25,23
+minecraft:black_candle,minecraft_black_candle.png,black candle,100,74
+minecraft:black_carpet,minecraft_black_carpet.png,black carpet,71,90
+minecraft:black_concrete,minecraft_black_concrete.png,black concrete,90,67
+minecraft:black_concrete_powder,minecraft_black_concrete_powder.png,black concrete powder,58,4
+minecraft:black_dye,minecraft_black_dye.png,black dye,76,33
+minecraft:black_glazed_terracotta,minecraft_black_glazed_terracotta.png,black glazed terracotta,37,63
+minecraft:black_shulker_box,minecraft_black_shulker_box.png,black shulker box,5,37
+minecraft:black_stained_glass,minecraft_black_stained_glass.png,black stained glass,56,79
+minecraft:black_stained_glass_pane,minecraft_black_stained_glass_pane.png,black stained glass pane,33,3
+minecraft:black_terracotta,minecraft_black_terracotta.png,black terracotta,48,90
+minecraft:black_wool,minecraft_black_wool.png,black wool,37,31
+minecraft:blade_pottery_sherd,minecraft_blade_pottery_sherd.png,blade pottery sherd,60,37
+minecraft:blast_furnace,minecraft_blast_furnace.png,blast furnace,78,58
+minecraft:blaze_powder,minecraft_blaze_powder.png,blaze powder,0,27
+minecraft:blaze_rod,minecraft_blaze_rod.png,blaze rod,45,45
+minecraft:blaze_spawn_egg,minecraft_blaze_spawn_egg.png,blaze spawn egg,34,10
+minecraft:blue_banner,minecraft_blue_banner.png,blue banner,24,25
+minecraft:blue_bed,minecraft_blue_bed.png,blue bed,59,16
+minecraft:blue_bundle,minecraft_blue_bundle.png,blue bundle,1,63
+minecraft:blue_candle,minecraft_blue_candle.png,blue candle,92,56
+minecraft:blue_carpet,minecraft_blue_carpet.png,blue carpet,24,92
+minecraft:blue_concrete,minecraft_blue_concrete.png,blue concrete,81,13
+minecraft:blue_concrete_powder,minecraft_blue_concrete_powder.png,blue concrete powder,11,61
+minecraft:blue_dye,minecraft_blue_dye.png,blue dye,84,52
+minecraft:blue_egg,minecraft_blue_egg.png,blue egg,66,20
+minecraft:blue_glazed_terracotta,minecraft_blue_glazed_terracotta.png,blue glazed terracotta,7,70
+minecraft:blue_ice,minecraft_blue_ice.png,blue ice,36,66
+minecraft:blue_orchid,minecraft_blue_orchid.png,blue orchid,15,57
+minecraft:blue_shulker_box,minecraft_blue_shulker_box.png,blue shulker box,19,9
+minecraft:blue_stained_glass,minecraft_blue_stained_glass.png,blue stained glass,19,59
+minecraft:blue_stained_glass_pane,minecraft_blue_stained_glass_pane.png,blue stained glass pane,33,87
+minecraft:blue_terracotta,minecraft_blue_terracotta.png,blue terracotta,77,69
+minecraft:blue_wool,minecraft_blue_wool.png,blue wool,89,53
+minecraft:bogged_spawn_egg,minecraft_bogged_spawn_egg.png,bogged spawn egg,41,85
+minecraft:bolt_armor_trim_smithing_template,minecraft_bolt_armor_trim_smithing_template.png,bolt armor trim smithing template,86,77
+minecraft:bone,minecraft_bone.png,bone,7,93
+minecraft:bone_block,minecraft_bone_block.png,bone block,94,37
+minecraft:bone_meal,minecraft_bone_meal.png,bone meal,17,18
+minecraft:book,minecraft_book.png,book,98,5
+minecraft:bookshelf,minecraft_bookshelf.png,bookshelf,9,64
+minecraft:bordure_indented_banner_pattern,minecraft_bordure_indented_banner_pattern.png,bordure indented banner pattern,4,97
+minecraft:bow,minecraft_bow.png,bow,73,13
+minecraft:bowl,minecraft_bowl.png,bowl,3,75
+minecraft:brain_coral,minecraft_brain_coral.png,brain coral,14,28
+minecraft:brain_coral_block,minecraft_brain_coral_block.png,brain coral block,55,38
+minecraft:brain_coral_fan,minecraft_brain_coral_fan.png,brain coral fan,0,86
+minecraft:bread,minecraft_bread.png,bread,58,32
+minecraft:breeze_rod,minecraft_breeze_rod.png,breeze rod,8,65
+minecraft:breeze_spawn_egg,minecraft_breeze_spawn_egg.png,breeze spawn egg,23,32
+minecraft:brewer_pottery_sherd,minecraft_brewer_pottery_sherd.png,brewer pottery sherd,75,27
+minecraft:brewing_stand,minecraft_brewing_stand.png,brewing stand,51,19
+minecraft:brick,minecraft_brick.png,brick,60,100
+minecraft:bricks,minecraft_bricks.png,bricks,83,62
+minecraft:brick_slab,minecraft_brick_slab.png,brick slab,91,26
+minecraft:brick_stairs,minecraft_brick_stairs.png,brick stairs,21,70
+minecraft:brick_wall,minecraft_brick_wall.png,brick wall,49,34
+minecraft:brown_banner,minecraft_brown_banner.png,brown banner,96,11
+minecraft:brown_bed,minecraft_brown_bed.png,brown bed,65,79
+minecraft:brown_bundle,minecraft_brown_bundle.png,brown bundle,32,78
+minecraft:brown_candle,minecraft_brown_candle.png,brown candle,88,93
+minecraft:brown_carpet,minecraft_brown_carpet.png,brown carpet,20,19
+minecraft:brown_concrete,minecraft_brown_concrete.png,brown concrete,100,72
+minecraft:brown_concrete_powder,minecraft_brown_concrete_powder.png,brown concrete powder,27,5
+minecraft:brown_dye,minecraft_brown_dye.png,brown dye,78,93
+minecraft:brown_egg,minecraft_brown_egg.png,brown egg,40,33
+minecraft:brown_glazed_terracotta,minecraft_brown_glazed_terracotta.png,brown glazed terracotta,84,72
+minecraft:brown_mushroom,minecraft_brown_mushroom.png,brown mushroom,12,34
+minecraft:brown_mushroom_block,minecraft_brown_mushroom_block.png,brown mushroom block,76,41
+minecraft:brown_shulker_box,minecraft_brown_shulker_box.png,brown shulker box,67,23
+minecraft:brown_stained_glass,minecraft_brown_stained_glass.png,brown stained glass,78,65
+minecraft:brown_stained_glass_pane,minecraft_brown_stained_glass_pane.png,brown stained glass pane,9,37
+minecraft:brown_terracotta,minecraft_brown_terracotta.png,brown terracotta,20,4
+minecraft:brown_wool,minecraft_brown_wool.png,brown wool,93,70
+minecraft:brush,minecraft_brush.png,brush,79,32
+minecraft:bubble_coral,minecraft_bubble_coral.png,bubble coral,81,100
+minecraft:bubble_coral_block,minecraft_bubble_coral_block.png,bubble coral block,55,89
+minecraft:bubble_coral_fan,minecraft_bubble_coral_fan.png,bubble coral fan,91,53
+minecraft:bucket,minecraft_bucket.png,bucket,75,64
+minecraft:budding_amethyst,minecraft_budding_amethyst.png,budding amethyst,45,85
+minecraft:bundle,minecraft_bundle.png,bundle,52,35
+minecraft:burn_pottery_sherd,minecraft_burn_pottery_sherd.png,burn pottery sherd,21,39
+minecraft:bush,minecraft_bush.png,bush,100,95
+minecraft:cactus,minecraft_cactus.png,cactus,56,71
+minecraft:cactus_flower,minecraft_cactus_flower.png,cactus flower,56,75
+minecraft:cake,minecraft_cake.png,cake,56,28
+minecraft:calcite,minecraft_calcite.png,calcite,74,82
+minecraft:calibrated_sculk_sensor,minecraft_calibrated_sculk_sensor.png,calibrated sculk sensor,36,19
+minecraft:camel_spawn_egg,minecraft_camel_spawn_egg.png,camel spawn egg,48,64
+minecraft:campfire,minecraft_campfire.png,campfire,74,94
+minecraft:candle,minecraft_candle.png,candle,57,37
+minecraft:carrot,minecraft_carrot.png,carrot,77,17
+minecraft:carrot_on_a_stick,minecraft_carrot_on_a_stick.png,carrot on a stick,4,2
+minecraft:cartography_table,minecraft_cartography_table.png,cartography table,20,29
+minecraft:carved_pumpkin,minecraft_carved_pumpkin.png,carved pumpkin,73,4
+minecraft:cat_spawn_egg,minecraft_cat_spawn_egg.png,cat spawn egg,84,4
+minecraft:cauldron,minecraft_cauldron.png,cauldron,76,47
+minecraft:cave_spider_spawn_egg,minecraft_cave_spider_spawn_egg.png,cave spider spawn egg,65,74
+minecraft:chain,minecraft_chain.png,chain,36,57
+minecraft:chainmail_boots,minecraft_chainmail_boots.png,chainmail boots,99,51
+minecraft:chainmail_chestplate,minecraft_chainmail_chestplate.png,chainmail chestplate,29,22
+minecraft:chainmail_helmet,minecraft_chainmail_helmet.png,chainmail helmet,52,50
+minecraft:chainmail_leggings,minecraft_chainmail_leggings.png,chainmail leggings,94,14
+minecraft:chain_command_block,minecraft_chain_command_block.png,chain command block,21,72
+minecraft:charcoal,minecraft_charcoal.png,charcoal,11,94
+minecraft:cherry_boat,minecraft_cherry_boat.png,cherry boat,83,47
+minecraft:cherry_button,minecraft_cherry_button.png,cherry button,48,51
+minecraft:cherry_chest_boat,minecraft_cherry_chest_boat.png,cherry chest boat,89,82
+minecraft:cherry_door,minecraft_cherry_door.png,cherry door,32,35
+minecraft:cherry_fence,minecraft_cherry_fence.png,cherry fence,6,100
+minecraft:cherry_fence_gate,minecraft_cherry_fence_gate.png,cherry fence gate,42,86
+minecraft:cherry_hanging_sign,minecraft_cherry_hanging_sign.png,cherry hanging sign,84,8
+minecraft:cherry_leaves,minecraft_cherry_leaves.png,cherry leaves,49,14
+minecraft:cherry_log,minecraft_cherry_log.png,cherry log,51,49
+minecraft:cherry_planks,minecraft_cherry_planks.png,cherry planks,8,78
+minecraft:cherry_pressure_plate,minecraft_cherry_pressure_plate.png,cherry pressure plate,37,28
+minecraft:cherry_sapling,minecraft_cherry_sapling.png,cherry sapling,53,60
+minecraft:cherry_sign,minecraft_cherry_sign.png,cherry sign,70,67
+minecraft:cherry_slab,minecraft_cherry_slab.png,cherry slab,76,40
+minecraft:cherry_stairs,minecraft_cherry_stairs.png,cherry stairs,8,10
+minecraft:cherry_trapdoor,minecraft_cherry_trapdoor.png,cherry trapdoor,97,60
+minecraft:cherry_wood,minecraft_cherry_wood.png,cherry wood,25,6
+minecraft:chest,minecraft_chest.png,chest,86,88
+minecraft:chest_minecart,minecraft_chest_minecart.png,chest minecart,36,11
+minecraft:chicken,minecraft_chicken.png,chicken,40,98
+minecraft:chicken_spawn_egg,minecraft_chicken_spawn_egg.png,chicken spawn egg,14,25
+minecraft:chipped_anvil,minecraft_chipped_anvil.png,chipped anvil,80,92
+minecraft:chiseled_bookshelf,minecraft_chiseled_bookshelf.png,chiseled bookshelf,8,38
+minecraft:chiseled_copper,minecraft_chiseled_copper.png,chiseled copper,72,24
+minecraft:chiseled_deepslate,minecraft_chiseled_deepslate.png,chiseled deepslate,68,6
+minecraft:chiseled_nether_bricks,minecraft_chiseled_nether_bricks.png,chiseled nether bricks,98,28
+minecraft:chiseled_polished_blackstone,minecraft_chiseled_polished_blackstone.png,chiseled polished blackstone,8,2
+minecraft:chiseled_quartz_block,minecraft_chiseled_quartz_block.png,chiseled quartz block,59,67
+minecraft:chiseled_red_sandstone,minecraft_chiseled_red_sandstone.png,chiseled red sandstone,79,17
+minecraft:chiseled_resin_bricks,minecraft_chiseled_resin_bricks.png,chiseled resin bricks,79,87
+minecraft:chiseled_sandstone,minecraft_chiseled_sandstone.png,chiseled sandstone,69,53
+minecraft:chiseled_stone_bricks,minecraft_chiseled_stone_bricks.png,chiseled stone bricks,83,73
+minecraft:chiseled_tuff,minecraft_chiseled_tuff.png,chiseled tuff,10,7
+minecraft:chiseled_tuff_bricks,minecraft_chiseled_tuff_bricks.png,chiseled tuff bricks,58,33
+minecraft:chorus_flower,minecraft_chorus_flower.png,chorus flower,88,81
+minecraft:chorus_fruit,minecraft_chorus_fruit.png,chorus fruit,77,92
+minecraft:chorus_plant,minecraft_chorus_plant.png,chorus plant,13,98
+minecraft:clay,minecraft_clay.png,clay,4,58
+minecraft:clay_ball,minecraft_clay_ball.png,clay ball,44,73
+minecraft:clock,minecraft_clock.png,clock,36,50
+minecraft:closed_eyeblossom,minecraft_closed_eyeblossom.png,closed eyeblossom,54,14
+minecraft:coal,minecraft_coal.png,coal,52,38
+minecraft:coal_block,minecraft_coal_block.png,coal block,73,53
+minecraft:coal_ore,minecraft_coal_ore.png,coal ore,36,94
+minecraft:coarse_dirt,minecraft_coarse_dirt.png,coarse dirt,31,29
+minecraft:coast_armor_trim_smithing_template,minecraft_coast_armor_trim_smithing_template.png,coast armor trim smithing template,45,53
+minecraft:cobbled_deepslate,minecraft_cobbled_deepslate.png,cobbled deepslate,87,15
+minecraft:cobbled_deepslate_slab,minecraft_cobbled_deepslate_slab.png,cobbled deepslate slab,3,52
+minecraft:cobbled_deepslate_stairs,minecraft_cobbled_deepslate_stairs.png,cobbled deepslate stairs,41,11
+minecraft:cobbled_deepslate_wall,minecraft_cobbled_deepslate_wall.png,cobbled deepslate wall,91,68
+minecraft:cobblestone,minecraft_cobblestone.png,cobblestone,11,62
+minecraft:cobblestone_slab,minecraft_cobblestone_slab.png,cobblestone slab,6,27
+minecraft:cobblestone_stairs,minecraft_cobblestone_stairs.png,cobblestone stairs,71,91
+minecraft:cobblestone_wall,minecraft_cobblestone_wall.png,cobblestone wall,83,17
+minecraft:cobweb,minecraft_cobweb.png,cobweb,64,43
+minecraft:cocoa_beans,minecraft_cocoa_beans.png,cocoa beans,10,60
+minecraft:cod,minecraft_cod.png,cod,84,65
+minecraft:cod_bucket,minecraft_cod_bucket.png,cod bucket,67,37
+minecraft:cod_spawn_egg,minecraft_cod_spawn_egg.png,cod spawn egg,58,92
+minecraft:command_block,minecraft_command_block.png,command block,7,29
+minecraft:command_block_minecart,minecraft_command_block_minecart.png,command block minecart,34,45
+minecraft:comparator,minecraft_comparator.png,comparator,57,17
+minecraft:compass,minecraft_compass.png,compass,36,52
+minecraft:composter,minecraft_composter.png,composter,14,17
+minecraft:conduit,minecraft_conduit.png,conduit,33,35
+minecraft:cooked_beef,minecraft_cooked_beef.png,cooked beef,21,27
+minecraft:cooked_chicken,minecraft_cooked_chicken.png,cooked chicken,19,44
+minecraft:cooked_cod,minecraft_cooked_cod.png,cooked cod,90,73
+minecraft:cooked_mutton,minecraft_cooked_mutton.png,cooked mutton,68,27
+minecraft:cooked_porkchop,minecraft_cooked_porkchop.png,cooked porkchop,70,98
+minecraft:cooked_rabbit,minecraft_cooked_rabbit.png,cooked rabbit,64,39
+minecraft:cooked_salmon,minecraft_cooked_salmon.png,cooked salmon,39,17
+minecraft:cookie,minecraft_cookie.png,cookie,100,39
+minecraft:copper_block,minecraft_copper_block.png,copper block,47,60
+minecraft:copper_bulb,minecraft_copper_bulb.png,copper bulb,51,99
+minecraft:copper_door,minecraft_copper_door.png,copper door,92,37
+minecraft:copper_grate,minecraft_copper_grate.png,copper grate,42,42
+minecraft:copper_ingot,minecraft_copper_ingot.png,copper ingot,5,34
+minecraft:copper_ore,minecraft_copper_ore.png,copper ore,56,61
+minecraft:copper_trapdoor,minecraft_copper_trapdoor.png,copper trapdoor,59,21
+minecraft:cornflower,minecraft_cornflower.png,cornflower,42,19
+minecraft:cow_spawn_egg,minecraft_cow_spawn_egg.png,cow spawn egg,6,49
+minecraft:cracked_deepslate_bricks,minecraft_cracked_deepslate_bricks.png,cracked deepslate bricks,90,10
+minecraft:cracked_deepslate_tiles,minecraft_cracked_deepslate_tiles.png,cracked deepslate tiles,93,46
+minecraft:cracked_nether_bricks,minecraft_cracked_nether_bricks.png,cracked nether bricks,90,31
+minecraft:cracked_polished_blackstone_bricks,minecraft_cracked_polished_blackstone_bricks.png,cracked polished blackstone bricks,25,68
+minecraft:cracked_stone_bricks,minecraft_cracked_stone_bricks.png,cracked stone bricks,35,85
+minecraft:crafter,minecraft_crafter.png,crafter,92,34
+minecraft:crafting_table,minecraft_crafting_table.png,crafting table,60,46
+minecraft:creaking_heart,minecraft_creaking_heart.png,creaking heart,57,69
+minecraft:creaking_spawn_egg,minecraft_creaking_spawn_egg.png,creaking spawn egg,33,32
+minecraft:creeper_banner_pattern,minecraft_creeper_banner_pattern.png,creeper banner pattern,49,23
+minecraft:creeper_head,minecraft_creeper_head.png,creeper head,76,61
+minecraft:creeper_spawn_egg,minecraft_creeper_spawn_egg.png,creeper spawn egg,3,65
+minecraft:crimson_button,minecraft_crimson_button.png,crimson button,3,80
+minecraft:crimson_door,minecraft_crimson_door.png,crimson door,12,43
+minecraft:crimson_fence,minecraft_crimson_fence.png,crimson fence,5,73
+minecraft:crimson_fence_gate,minecraft_crimson_fence_gate.png,crimson fence gate,65,74
+minecraft:crimson_fungus,minecraft_crimson_fungus.png,crimson fungus,50,12
+minecraft:crimson_hanging_sign,minecraft_crimson_hanging_sign.png,crimson hanging sign,73,14
+minecraft:crimson_hyphae,minecraft_crimson_hyphae.png,crimson hyphae,20,15
+minecraft:crimson_nylium,minecraft_crimson_nylium.png,crimson nylium,88,66
+minecraft:crimson_planks,minecraft_crimson_planks.png,crimson planks,47,63
+minecraft:crimson_pressure_plate,minecraft_crimson_pressure_plate.png,crimson pressure plate,16,18
+minecraft:crimson_roots,minecraft_crimson_roots.png,crimson roots,72,24
+minecraft:crimson_sign,minecraft_crimson_sign.png,crimson sign,29,54
+minecraft:crimson_slab,minecraft_crimson_slab.png,crimson slab,74,42
+minecraft:crimson_stairs,minecraft_crimson_stairs.png,crimson stairs,43,16
+minecraft:crimson_stem,minecraft_crimson_stem.png,crimson stem,19,32
+minecraft:crimson_trapdoor,minecraft_crimson_trapdoor.png,crimson trapdoor,52,69
+minecraft:crossbow,minecraft_crossbow.png,crossbow,86,0
+minecraft:crying_obsidian,minecraft_crying_obsidian.png,crying obsidian,1,55
+minecraft:cut_copper,minecraft_cut_copper.png,cut copper,5,63
+minecraft:cut_copper_slab,minecraft_cut_copper_slab.png,cut copper slab,28,95
+minecraft:cut_copper_stairs,minecraft_cut_copper_stairs.png,cut copper stairs,87,68
+minecraft:cut_red_sandstone,minecraft_cut_red_sandstone.png,cut red sandstone,71,92
+minecraft:cut_red_sandstone_slab,minecraft_cut_red_sandstone_slab.png,cut red sandstone slab,81,66
+minecraft:cut_sandstone,minecraft_cut_sandstone.png,cut sandstone,91,14
+minecraft:cut_sandstone_slab,minecraft_cut_sandstone_slab.png,cut sandstone slab,73,81
+minecraft:cyan_banner,minecraft_cyan_banner.png,cyan banner,86,91
+minecraft:cyan_bed,minecraft_cyan_bed.png,cyan bed,44,2
+minecraft:cyan_bundle,minecraft_cyan_bundle.png,cyan bundle,40,73
+minecraft:cyan_candle,minecraft_cyan_candle.png,cyan candle,43,34
+minecraft:cyan_carpet,minecraft_cyan_carpet.png,cyan carpet,13,43
+minecraft:cyan_concrete,minecraft_cyan_concrete.png,cyan concrete,74,78
+minecraft:cyan_concrete_powder,minecraft_cyan_concrete_powder.png,cyan concrete powder,96,98
+minecraft:cyan_dye,minecraft_cyan_dye.png,cyan dye,95,40
+minecraft:cyan_glazed_terracotta,minecraft_cyan_glazed_terracotta.png,cyan glazed terracotta,71,1
+minecraft:cyan_shulker_box,minecraft_cyan_shulker_box.png,cyan shulker box,24,86
+minecraft:cyan_stained_glass,minecraft_cyan_stained_glass.png,cyan stained glass,88,40
+minecraft:cyan_stained_glass_pane,minecraft_cyan_stained_glass_pane.png,cyan stained glass pane,5,88
+minecraft:cyan_terracotta,minecraft_cyan_terracotta.png,cyan terracotta,56,10
+minecraft:cyan_wool,minecraft_cyan_wool.png,cyan wool,37,42
+minecraft:damaged_anvil,minecraft_damaged_anvil.png,damaged anvil,8,35
+minecraft:dandelion,minecraft_dandelion.png,dandelion,20,63
+minecraft:danger_pottery_sherd,minecraft_danger_pottery_sherd.png,danger pottery sherd,92,54
+minecraft:dark_oak_boat,minecraft_dark_oak_boat.png,dark oak boat,30,51
+minecraft:dark_oak_button,minecraft_dark_oak_button.png,dark oak button,53,6
+minecraft:dark_oak_chest_boat,minecraft_dark_oak_chest_boat.png,dark oak chest boat,14,98
+minecraft:dark_oak_door,minecraft_dark_oak_door.png,dark oak door,27,14
+minecraft:dark_oak_fence,minecraft_dark_oak_fence.png,dark oak fence,77,42
+minecraft:dark_oak_fence_gate,minecraft_dark_oak_fence_gate.png,dark oak fence gate,79,18
+minecraft:dark_oak_hanging_sign,minecraft_dark_oak_hanging_sign.png,dark oak hanging sign,65,41
+minecraft:dark_oak_leaves,minecraft_dark_oak_leaves.png,dark oak leaves,96,76
+minecraft:dark_oak_log,minecraft_dark_oak_log.png,dark oak log,97,43
+minecraft:dark_oak_planks,minecraft_dark_oak_planks.png,dark oak planks,5,95
+minecraft:dark_oak_pressure_plate,minecraft_dark_oak_pressure_plate.png,dark oak pressure plate,65,49
+minecraft:dark_oak_sapling,minecraft_dark_oak_sapling.png,dark oak sapling,92,51
+minecraft:dark_oak_sign,minecraft_dark_oak_sign.png,dark oak sign,23,11
+minecraft:dark_oak_slab,minecraft_dark_oak_slab.png,dark oak slab,90,33
+minecraft:dark_oak_stairs,minecraft_dark_oak_stairs.png,dark oak stairs,38,54
+minecraft:dark_oak_trapdoor,minecraft_dark_oak_trapdoor.png,dark oak trapdoor,56,52
+minecraft:dark_oak_wood,minecraft_dark_oak_wood.png,dark oak wood,79,88
+minecraft:dark_prismarine,minecraft_dark_prismarine.png,dark prismarine,77,95
+minecraft:dark_prismarine_slab,minecraft_dark_prismarine_slab.png,dark prismarine slab,35,96
+minecraft:dark_prismarine_stairs,minecraft_dark_prismarine_stairs.png,dark prismarine stairs,48,12
+minecraft:daylight_detector,minecraft_daylight_detector.png,daylight detector,81,35
+minecraft:dead_brain_coral,minecraft_dead_brain_coral.png,dead brain coral,4,54
+minecraft:dead_brain_coral_block,minecraft_dead_brain_coral_block.png,dead brain coral block,67,68
+minecraft:dead_brain_coral_fan,minecraft_dead_brain_coral_fan.png,dead brain coral fan,32,11
+minecraft:dead_bubble_coral,minecraft_dead_bubble_coral.png,dead bubble coral,60,84
+minecraft:dead_bubble_coral_block,minecraft_dead_bubble_coral_block.png,dead bubble coral block,45,98
+minecraft:dead_bubble_coral_fan,minecraft_dead_bubble_coral_fan.png,dead bubble coral fan,3,79
+minecraft:dead_bush,minecraft_dead_bush.png,dead bush,62,6
+minecraft:dead_fire_coral,minecraft_dead_fire_coral.png,dead fire coral,23,14
+minecraft:dead_fire_coral_block,minecraft_dead_fire_coral_block.png,dead fire coral block,72,5
+minecraft:dead_fire_coral_fan,minecraft_dead_fire_coral_fan.png,dead fire coral fan,49,15
+minecraft:dead_horn_coral,minecraft_dead_horn_coral.png,dead horn coral,16,31
+minecraft:dead_horn_coral_block,minecraft_dead_horn_coral_block.png,dead horn coral block,79,69
+minecraft:dead_horn_coral_fan,minecraft_dead_horn_coral_fan.png,dead horn coral fan,90,21
+minecraft:dead_tube_coral,minecraft_dead_tube_coral.png,dead tube coral,10,11
+minecraft:dead_tube_coral_block,minecraft_dead_tube_coral_block.png,dead tube coral block,84,83
+minecraft:dead_tube_coral_fan,minecraft_dead_tube_coral_fan.png,dead tube coral fan,40,79
+minecraft:debug_stick,minecraft_debug_stick.png,debug stick,3,47
+minecraft:decorated_pot,minecraft_decorated_pot.png,decorated pot,40,55
+minecraft:deepslate,minecraft_deepslate.png,deepslate,68,43
+minecraft:deepslate_bricks,minecraft_deepslate_bricks.png,deepslate bricks,19,70
+minecraft:deepslate_brick_slab,minecraft_deepslate_brick_slab.png,deepslate brick slab,29,15
+minecraft:deepslate_brick_stairs,minecraft_deepslate_brick_stairs.png,deepslate brick stairs,34,40
+minecraft:deepslate_brick_wall,minecraft_deepslate_brick_wall.png,deepslate brick wall,57,24
+minecraft:deepslate_coal_ore,minecraft_deepslate_coal_ore.png,deepslate coal ore,21,59
+minecraft:deepslate_copper_ore,minecraft_deepslate_copper_ore.png,deepslate copper ore,18,80
+minecraft:deepslate_diamond_ore,minecraft_deepslate_diamond_ore.png,deepslate diamond ore,14,5
+minecraft:deepslate_emerald_ore,minecraft_deepslate_emerald_ore.png,deepslate emerald ore,12,37
+minecraft:deepslate_gold_ore,minecraft_deepslate_gold_ore.png,deepslate gold ore,41,65
+minecraft:deepslate_iron_ore,minecraft_deepslate_iron_ore.png,deepslate iron ore,44,9
+minecraft:deepslate_lapis_ore,minecraft_deepslate_lapis_ore.png,deepslate lapis ore,55,40
+minecraft:deepslate_redstone_ore,minecraft_deepslate_redstone_ore.png,deepslate redstone ore,46,55
+minecraft:deepslate_tiles,minecraft_deepslate_tiles.png,deepslate tiles,67,1
+minecraft:deepslate_tile_slab,minecraft_deepslate_tile_slab.png,deepslate tile slab,42,50
+minecraft:deepslate_tile_stairs,minecraft_deepslate_tile_stairs.png,deepslate tile stairs,83,22
+minecraft:deepslate_tile_wall,minecraft_deepslate_tile_wall.png,deepslate tile wall,40,22
+minecraft:detector_rail,minecraft_detector_rail.png,detector rail,96,24
+minecraft:diamond,minecraft_diamond.png,diamond,47,36
+minecraft:diamond_axe,minecraft_diamond_axe.png,diamond axe,37,60
+minecraft:diamond_block,minecraft_diamond_block.png,diamond block,52,97
+minecraft:diamond_boots,minecraft_diamond_boots.png,diamond boots,31,37
+minecraft:diamond_chestplate,minecraft_diamond_chestplate.png,diamond chestplate,54,96
+minecraft:diamond_helmet,minecraft_diamond_helmet.png,diamond helmet,98,85
+minecraft:diamond_hoe,minecraft_diamond_hoe.png,diamond hoe,38,58
+minecraft:diamond_horse_armor,minecraft_diamond_horse_armor.png,diamond horse armor,94,66
+minecraft:diamond_leggings,minecraft_diamond_leggings.png,diamond leggings,32,31
+minecraft:diamond_ore,minecraft_diamond_ore.png,diamond ore,0,53
+minecraft:diamond_pickaxe,minecraft_diamond_pickaxe.png,diamond pickaxe,50,5
+minecraft:diamond_shovel,minecraft_diamond_shovel.png,diamond shovel,72,0
+minecraft:diamond_sword,minecraft_diamond_sword.png,diamond sword,43,4
+minecraft:diorite,minecraft_diorite.png,diorite,44,49
+minecraft:diorite_slab,minecraft_diorite_slab.png,diorite slab,15,99
+minecraft:diorite_stairs,minecraft_diorite_stairs.png,diorite stairs,29,24
+minecraft:diorite_wall,minecraft_diorite_wall.png,diorite wall,91,58
+minecraft:dirt,minecraft_dirt.png,dirt,70,92
+minecraft:dirt_path,minecraft_dirt_path.png,dirt path,21,86
+minecraft:disc_fragment_5,minecraft_disc_fragment_5.png,disc fragment 5,89,13
+minecraft:dispenser,minecraft_dispenser.png,dispenser,62,71
+minecraft:dolphin_spawn_egg,minecraft_dolphin_spawn_egg.png,dolphin spawn egg,99,89
+minecraft:donkey_spawn_egg,minecraft_donkey_spawn_egg.png,donkey spawn egg,45,4
+minecraft:dragon_breath,minecraft_dragon_breath.png,dragon breath,6,41
+minecraft:dragon_egg,minecraft_dragon_egg.png,dragon egg,12,29
+minecraft:dragon_head,minecraft_dragon_head.png,dragon head,49,29
+minecraft:dried_kelp,minecraft_dried_kelp.png,dried kelp,73,27
+minecraft:dried_kelp_block,minecraft_dried_kelp_block.png,dried kelp block,31,88
+minecraft:dripstone_block,minecraft_dripstone_block.png,dripstone block,72,52
+minecraft:dropper,minecraft_dropper.png,dropper,76,1
+minecraft:drowned_spawn_egg,minecraft_drowned_spawn_egg.png,drowned spawn egg,72,93
+minecraft:dune_armor_trim_smithing_template,minecraft_dune_armor_trim_smithing_template.png,dune armor trim smithing template,70,38
+minecraft:echo_shard,minecraft_echo_shard.png,echo shard,39,15
+minecraft:egg,minecraft_egg.png,egg,31,77
+minecraft:elder_guardian_spawn_egg,minecraft_elder_guardian_spawn_egg.png,elder guardian spawn egg,79,85
+minecraft:elytra,minecraft_elytra.png,elytra,63,37
+minecraft:emerald,minecraft_emerald.png,emerald,28,52
+minecraft:emerald_block,minecraft_emerald_block.png,emerald block,47,66
+minecraft:emerald_ore,minecraft_emerald_ore.png,emerald ore,43,42
+minecraft:enchanted_book,minecraft_enchanted_book.png,enchanted book,28,71
+minecraft:enchanted_golden_apple,minecraft_enchanted_golden_apple.png,enchanted golden apple,97,30
+minecraft:enchanting_table,minecraft_enchanting_table.png,enchanting table,11,73
+minecraft:enderman_spawn_egg,minecraft_enderman_spawn_egg.png,enderman spawn egg,37,20
+minecraft:endermite_spawn_egg,minecraft_endermite_spawn_egg.png,endermite spawn egg,3,33
+minecraft:ender_chest,minecraft_ender_chest.png,ender chest,90,74
+minecraft:ender_dragon_spawn_egg,minecraft_ender_dragon_spawn_egg.png,ender dragon spawn egg,26,2
+minecraft:ender_eye,minecraft_ender_eye.png,ender eye,54,57
+minecraft:ender_pearl,minecraft_ender_pearl.png,ender pearl,66,46
+minecraft:end_crystal,minecraft_end_crystal.png,end crystal,2,86
+minecraft:end_portal_frame,minecraft_end_portal_frame.png,end portal frame,52,45
+minecraft:end_rod,minecraft_end_rod.png,end rod,27,49
+minecraft:end_stone,minecraft_end_stone.png,end stone,63,70
+minecraft:end_stone_bricks,minecraft_end_stone_bricks.png,end stone bricks,45,33
+minecraft:end_stone_brick_slab,minecraft_end_stone_brick_slab.png,end stone brick slab,37,61
+minecraft:end_stone_brick_stairs,minecraft_end_stone_brick_stairs.png,end stone brick stairs,10,3
+minecraft:end_stone_brick_wall,minecraft_end_stone_brick_wall.png,end stone brick wall,38,93
+minecraft:evoker_spawn_egg,minecraft_evoker_spawn_egg.png,evoker spawn egg,9,9
+minecraft:experience_bottle,minecraft_experience_bottle.png,experience bottle,65,82
+minecraft:explorer_pottery_sherd,minecraft_explorer_pottery_sherd.png,explorer pottery sherd,16,89
+minecraft:exposed_chiseled_copper,minecraft_exposed_chiseled_copper.png,exposed chiseled copper,47,34
+minecraft:exposed_copper,minecraft_exposed_copper.png,exposed copper,94,56
+minecraft:exposed_copper_bulb,minecraft_exposed_copper_bulb.png,exposed copper bulb,23,94
+minecraft:exposed_copper_door,minecraft_exposed_copper_door.png,exposed copper door,85,59
+minecraft:exposed_copper_grate,minecraft_exposed_copper_grate.png,exposed copper grate,64,55
+minecraft:exposed_copper_trapdoor,minecraft_exposed_copper_trapdoor.png,exposed copper trapdoor,33,18
+minecraft:exposed_cut_copper,minecraft_exposed_cut_copper.png,exposed cut copper,88,81
+minecraft:exposed_cut_copper_slab,minecraft_exposed_cut_copper_slab.png,exposed cut copper slab,32,16
+minecraft:exposed_cut_copper_stairs,minecraft_exposed_cut_copper_stairs.png,exposed cut copper stairs,47,23
+minecraft:eye_armor_trim_smithing_template,minecraft_eye_armor_trim_smithing_template.png,eye armor trim smithing template,66,45
+minecraft:farmland,minecraft_farmland.png,farmland,58,8
+minecraft:feather,minecraft_feather.png,feather,19,65
+minecraft:fermented_spider_eye,minecraft_fermented_spider_eye.png,fermented spider eye,58,68
+minecraft:fern,minecraft_fern.png,fern,23,88
+minecraft:field_masoned_banner_pattern,minecraft_field_masoned_banner_pattern.png,field masoned banner pattern,10,81
+minecraft:filled_map,minecraft_filled_map.png,filled map,25,35
+minecraft:firefly_bush,minecraft_firefly_bush.png,firefly bush,84,96
+minecraft:firework_rocket,minecraft_firework_rocket.png,firework rocket,55,78
+minecraft:firework_star,minecraft_firework_star.png,firework star,93,100
+minecraft:fire_charge,minecraft_fire_charge.png,fire charge,83,34
+minecraft:fire_coral,minecraft_fire_coral.png,fire coral,72,44
+minecraft:fire_coral_block,minecraft_fire_coral_block.png,fire coral block,94,26
+minecraft:fire_coral_fan,minecraft_fire_coral_fan.png,fire coral fan,8,50
+minecraft:fishing_rod,minecraft_fishing_rod.png,fishing rod,53,90
+minecraft:fletching_table,minecraft_fletching_table.png,fletching table,40,95
+minecraft:flint,minecraft_flint.png,flint,16,92
+minecraft:flint_and_steel,minecraft_flint_and_steel.png,flint and steel,63,76
+minecraft:flowering_azalea,minecraft_flowering_azalea.png,flowering azalea,40,54
+minecraft:flowering_azalea_leaves,minecraft_flowering_azalea_leaves.png,flowering azalea leaves,43,26
+minecraft:flower_banner_pattern,minecraft_flower_banner_pattern.png,flower banner pattern,2,7
+minecraft:flower_pot,minecraft_flower_pot.png,flower pot,35,37
+minecraft:flow_armor_trim_smithing_template,minecraft_flow_armor_trim_smithing_template.png,flow armor trim smithing template,49,63
+minecraft:flow_banner_pattern,minecraft_flow_banner_pattern.png,flow banner pattern,27,17
+minecraft:flow_pottery_sherd,minecraft_flow_pottery_sherd.png,flow pottery sherd,52,91
+minecraft:fox_spawn_egg,minecraft_fox_spawn_egg.png,fox spawn egg,22,98
+minecraft:friend_pottery_sherd,minecraft_friend_pottery_sherd.png,friend pottery sherd,90,56
+minecraft:frogspawn,minecraft_frogspawn.png,frogspawn,100,33
+minecraft:frog_spawn_egg,minecraft_frog_spawn_egg.png,frog spawn egg,60,70
+minecraft:furnace,minecraft_furnace.png,furnace,54,81
+minecraft:furnace_minecart,minecraft_furnace_minecart.png,furnace minecart,38,90
+minecraft:ghast_spawn_egg,minecraft_ghast_spawn_egg.png,ghast spawn egg,53,29
+minecraft:ghast_tear,minecraft_ghast_tear.png,ghast tear,100,1
+minecraft:gilded_blackstone,minecraft_gilded_blackstone.png,gilded blackstone,29,52
+minecraft:glass,minecraft_glass.png,glass,69,27
+minecraft:glass_bottle,minecraft_glass_bottle.png,glass bottle,8,55
+minecraft:glass_pane,minecraft_glass_pane.png,glass pane,66,19
+minecraft:glistering_melon_slice,minecraft_glistering_melon_slice.png,glistering melon slice,35,18
+minecraft:globe_banner_pattern,minecraft_globe_banner_pattern.png,globe banner pattern,2,45
+minecraft:glowstone,minecraft_glowstone.png,glowstone,38,52
+minecraft:glowstone_dust,minecraft_glowstone_dust.png,glowstone dust,20,90
+minecraft:glow_berries,minecraft_glow_berries.png,glow berries,37,14
+minecraft:glow_ink_sac,minecraft_glow_ink_sac.png,glow ink sac,59,72
+minecraft:glow_item_frame,minecraft_glow_item_frame.png,glow item frame,17,22
+minecraft:glow_lichen,minecraft_glow_lichen.png,glow lichen,82,45
+minecraft:glow_squid_spawn_egg,minecraft_glow_squid_spawn_egg.png,glow squid spawn egg,54,31
+minecraft:goat_horn,minecraft_goat_horn.png,goat horn,98,18
+minecraft:goat_spawn_egg,minecraft_goat_spawn_egg.png,goat spawn egg,6,22
+minecraft:golden_apple,minecraft_golden_apple.png,golden apple,34,69
+minecraft:golden_axe,minecraft_golden_axe.png,golden axe,96,15
+minecraft:golden_boots,minecraft_golden_boots.png,golden boots,21,13
+minecraft:golden_carrot,minecraft_golden_carrot.png,golden carrot,41,78
+minecraft:golden_chestplate,minecraft_golden_chestplate.png,golden chestplate,86,99
+minecraft:golden_helmet,minecraft_golden_helmet.png,golden helmet,69,70
+minecraft:golden_hoe,minecraft_golden_hoe.png,golden hoe,36,51
+minecraft:golden_horse_armor,minecraft_golden_horse_armor.png,golden horse armor,18,91
+minecraft:golden_leggings,minecraft_golden_leggings.png,golden leggings,27,30
+minecraft:golden_pickaxe,minecraft_golden_pickaxe.png,golden pickaxe,7,47
+minecraft:golden_shovel,minecraft_golden_shovel.png,golden shovel,88,81
+minecraft:golden_sword,minecraft_golden_sword.png,golden sword,40,72
+minecraft:gold_block,minecraft_gold_block.png,gold block,97,29
+minecraft:gold_ingot,minecraft_gold_ingot.png,gold ingot,47,87
+minecraft:gold_nugget,minecraft_gold_nugget.png,gold nugget,94,36
+minecraft:gold_ore,minecraft_gold_ore.png,gold ore,36,96
+minecraft:granite,minecraft_granite.png,granite,31,80
+minecraft:granite_slab,minecraft_granite_slab.png,granite slab,68,13
+minecraft:granite_stairs,minecraft_granite_stairs.png,granite stairs,44,51
+minecraft:granite_wall,minecraft_granite_wall.png,granite wall,17,27
+minecraft:grass_block,minecraft_grass_block.png,grass block,63,57
+minecraft:gravel,minecraft_gravel.png,gravel,89,55
+minecraft:gray_banner,minecraft_gray_banner.png,gray banner,41,99
+minecraft:gray_bed,minecraft_gray_bed.png,gray bed,16,65
+minecraft:gray_bundle,minecraft_gray_bundle.png,gray bundle,96,8
+minecraft:gray_candle,minecraft_gray_candle.png,gray candle,47,38
+minecraft:gray_carpet,minecraft_gray_carpet.png,gray carpet,45,96
+minecraft:gray_concrete,minecraft_gray_concrete.png,gray concrete,49,94
+minecraft:gray_concrete_powder,minecraft_gray_concrete_powder.png,gray concrete powder,89,41
+minecraft:gray_dye,minecraft_gray_dye.png,gray dye,6,70
+minecraft:gray_glazed_terracotta,minecraft_gray_glazed_terracotta.png,gray glazed terracotta,33,25
+minecraft:gray_shulker_box,minecraft_gray_shulker_box.png,gray shulker box,8,59
+minecraft:gray_stained_glass,minecraft_gray_stained_glass.png,gray stained glass,95,57
+minecraft:gray_stained_glass_pane,minecraft_gray_stained_glass_pane.png,gray stained glass pane,61,11
+minecraft:gray_terracotta,minecraft_gray_terracotta.png,gray terracotta,35,46
+minecraft:gray_wool,minecraft_gray_wool.png,gray wool,81,49
+minecraft:green_banner,minecraft_green_banner.png,green banner,6,93
+minecraft:green_bed,minecraft_green_bed.png,green bed,10,82
+minecraft:green_bundle,minecraft_green_bundle.png,green bundle,74,35
+minecraft:green_candle,minecraft_green_candle.png,green candle,85,92
+minecraft:green_carpet,minecraft_green_carpet.png,green carpet,72,3
+minecraft:green_concrete,minecraft_green_concrete.png,green concrete,67,8
+minecraft:green_concrete_powder,minecraft_green_concrete_powder.png,green concrete powder,26,85
+minecraft:green_dye,minecraft_green_dye.png,green dye,81,95
+minecraft:green_glazed_terracotta,minecraft_green_glazed_terracotta.png,green glazed terracotta,93,43
+minecraft:green_shulker_box,minecraft_green_shulker_box.png,green shulker box,83,11
+minecraft:green_stained_glass,minecraft_green_stained_glass.png,green stained glass,94,48
+minecraft:green_stained_glass_pane,minecraft_green_stained_glass_pane.png,green stained glass pane,37,94
+minecraft:green_terracotta,minecraft_green_terracotta.png,green terracotta,69,89
+minecraft:green_wool,minecraft_green_wool.png,green wool,88,32
+minecraft:grindstone,minecraft_grindstone.png,grindstone,99,21
+minecraft:guardian_spawn_egg,minecraft_guardian_spawn_egg.png,guardian spawn egg,97,89
+minecraft:gunpowder,minecraft_gunpowder.png,gunpowder,57,13
+minecraft:guster_banner_pattern,minecraft_guster_banner_pattern.png,guster banner pattern,64,2
+minecraft:guster_pottery_sherd,minecraft_guster_pottery_sherd.png,guster pottery sherd,34,33
+minecraft:hanging_roots,minecraft_hanging_roots.png,hanging roots,68,65
+minecraft:hay_block,minecraft_hay_block.png,hay block,80,38
+minecraft:heartbreak_pottery_sherd,minecraft_heartbreak_pottery_sherd.png,heartbreak pottery sherd,23,8
+minecraft:heart_of_the_sea,minecraft_heart_of_the_sea.png,heart of the sea,28,9
+minecraft:heart_pottery_sherd,minecraft_heart_pottery_sherd.png,heart pottery sherd,44,46
+minecraft:heavy_core,minecraft_heavy_core.png,heavy core,59,68
+minecraft:heavy_weighted_pressure_plate,minecraft_heavy_weighted_pressure_plate.png,heavy weighted pressure plate,2,50
+minecraft:hoglin_spawn_egg,minecraft_hoglin_spawn_egg.png,hoglin spawn egg,86,15
+minecraft:honeycomb,minecraft_honeycomb.png,honeycomb,95,77
+minecraft:honeycomb_block,minecraft_honeycomb_block.png,honeycomb block,55,55
+minecraft:honey_block,minecraft_honey_block.png,honey block,54,44
+minecraft:honey_bottle,minecraft_honey_bottle.png,honey bottle,78,26
+minecraft:hopper,minecraft_hopper.png,hopper,70,30
+minecraft:hopper_minecart,minecraft_hopper_minecart.png,hopper minecart,47,42
+minecraft:horn_coral,minecraft_horn_coral.png,horn coral,93,41
+minecraft:horn_coral_block,minecraft_horn_coral_block.png,horn coral block,99,78
+minecraft:horn_coral_fan,minecraft_horn_coral_fan.png,horn coral fan,78,2
+minecraft:horse_spawn_egg,minecraft_horse_spawn_egg.png,horse spawn egg,36,85
+minecraft:host_armor_trim_smithing_template,minecraft_host_armor_trim_smithing_template.png,host armor trim smithing template,35,64
+minecraft:howl_pottery_sherd,minecraft_howl_pottery_sherd.png,howl pottery sherd,70,85
+minecraft:husk_spawn_egg,minecraft_husk_spawn_egg.png,husk spawn egg,9,5
+minecraft:ice,minecraft_ice.png,ice,53,28
+minecraft:infested_chiseled_stone_bricks,minecraft_infested_chiseled_stone_bricks.png,infested chiseled stone bricks,64,47
+minecraft:infested_cobblestone,minecraft_infested_cobblestone.png,infested cobblestone,21,72
+minecraft:infested_cracked_stone_bricks,minecraft_infested_cracked_stone_bricks.png,infested cracked stone bricks,88,74
+minecraft:infested_deepslate,minecraft_infested_deepslate.png,infested deepslate,32,18
+minecraft:infested_mossy_stone_bricks,minecraft_infested_mossy_stone_bricks.png,infested mossy stone bricks,24,32
+minecraft:infested_stone,minecraft_infested_stone.png,infested stone,94,10
+minecraft:infested_stone_bricks,minecraft_infested_stone_bricks.png,infested stone bricks,59,40
+minecraft:ink_sac,minecraft_ink_sac.png,ink sac,83,11
+minecraft:iron_axe,minecraft_iron_axe.png,iron axe,70,55
+minecraft:iron_bars,minecraft_iron_bars.png,iron bars,66,99
+minecraft:iron_block,minecraft_iron_block.png,iron block,81,2
+minecraft:iron_boots,minecraft_iron_boots.png,iron boots,53,89
+minecraft:iron_chestplate,minecraft_iron_chestplate.png,iron chestplate,85,94
+minecraft:iron_door,minecraft_iron_door.png,iron door,27,36
+minecraft:iron_golem_spawn_egg,minecraft_iron_golem_spawn_egg.png,iron golem spawn egg,2,39
+minecraft:iron_helmet,minecraft_iron_helmet.png,iron helmet,23,84
+minecraft:iron_hoe,minecraft_iron_hoe.png,iron hoe,62,89
+minecraft:iron_horse_armor,minecraft_iron_horse_armor.png,iron horse armor,51,66
+minecraft:iron_ingot,minecraft_iron_ingot.png,iron ingot,45,67
+minecraft:iron_leggings,minecraft_iron_leggings.png,iron leggings,19,45
+minecraft:iron_nugget,minecraft_iron_nugget.png,iron nugget,26,58
+minecraft:iron_ore,minecraft_iron_ore.png,iron ore,18,44
+minecraft:iron_pickaxe,minecraft_iron_pickaxe.png,iron pickaxe,9,95
+minecraft:iron_shovel,minecraft_iron_shovel.png,iron shovel,33,43
+minecraft:iron_sword,minecraft_iron_sword.png,iron sword,93,87
+minecraft:iron_trapdoor,minecraft_iron_trapdoor.png,iron trapdoor,46,100
+minecraft:item_frame,minecraft_item_frame.png,item frame,7,77
+minecraft:jack_o_lantern,minecraft_jack_o_lantern.png,jack o lantern,1,68
+minecraft:jigsaw,minecraft_jigsaw.png,jigsaw,20,40
+minecraft:jukebox,minecraft_jukebox.png,jukebox,54,99
+minecraft:jungle_boat,minecraft_jungle_boat.png,jungle boat,50,77
+minecraft:jungle_button,minecraft_jungle_button.png,jungle button,68,27
+minecraft:jungle_chest_boat,minecraft_jungle_chest_boat.png,jungle chest boat,33,19
+minecraft:jungle_door,minecraft_jungle_door.png,jungle door,47,1
+minecraft:jungle_fence,minecraft_jungle_fence.png,jungle fence,60,3
+minecraft:jungle_fence_gate,minecraft_jungle_fence_gate.png,jungle fence gate,100,16
+minecraft:jungle_hanging_sign,minecraft_jungle_hanging_sign.png,jungle hanging sign,58,34
+minecraft:jungle_leaves,minecraft_jungle_leaves.png,jungle leaves,97,79
+minecraft:jungle_log,minecraft_jungle_log.png,jungle log,56,16
+minecraft:jungle_planks,minecraft_jungle_planks.png,jungle planks,33,4
+minecraft:jungle_pressure_plate,minecraft_jungle_pressure_plate.png,jungle pressure plate,27,44
+minecraft:jungle_sapling,minecraft_jungle_sapling.png,jungle sapling,68,60
+minecraft:jungle_sign,minecraft_jungle_sign.png,jungle sign,95,31
+minecraft:jungle_slab,minecraft_jungle_slab.png,jungle slab,10,37
+minecraft:jungle_stairs,minecraft_jungle_stairs.png,jungle stairs,61,72
+minecraft:jungle_trapdoor,minecraft_jungle_trapdoor.png,jungle trapdoor,5,84
+minecraft:jungle_wood,minecraft_jungle_wood.png,jungle wood,1,100
+minecraft:kelp,minecraft_kelp.png,kelp,5,50
+minecraft:knowledge_book,minecraft_knowledge_book.png,knowledge book,3,87
+minecraft:ladder,minecraft_ladder.png,ladder,12,54
+minecraft:lantern,minecraft_lantern.png,lantern,30,77
+minecraft:lapis_block,minecraft_lapis_block.png,lapis block,71,19
+minecraft:lapis_lazuli,minecraft_lapis_lazuli.png,lapis lazuli,97,6
+minecraft:lapis_ore,minecraft_lapis_ore.png,lapis ore,63,28
+minecraft:large_amethyst_bud,minecraft_large_amethyst_bud.png,large amethyst bud,80,7
+minecraft:large_fern,minecraft_large_fern.png,large fern,78,86
+minecraft:lava_bucket,minecraft_lava_bucket.png,lava bucket,74,99
+minecraft:lead,minecraft_lead.png,lead,64,23
+minecraft:leaf_litter,minecraft_leaf_litter.png,leaf litter,53,7
+minecraft:leather,minecraft_leather.png,leather,4,45
+minecraft:leather_boots,minecraft_leather_boots.png,leather boots,65,73
+minecraft:leather_chestplate,minecraft_leather_chestplate.png,leather chestplate,54,39
+minecraft:leather_helmet,minecraft_leather_helmet.png,leather helmet,52,40
+minecraft:leather_horse_armor,minecraft_leather_horse_armor.png,leather horse armor,35,40
+minecraft:leather_leggings,minecraft_leather_leggings.png,leather leggings,99,48
+minecraft:lectern,minecraft_lectern.png,lectern,66,46
+minecraft:lever,minecraft_lever.png,lever,84,60
+minecraft:light,minecraft_light.png,light,41,16
+minecraft:lightning_rod,minecraft_lightning_rod.png,lightning rod,66,43
+minecraft:light_blue_banner,minecraft_light_blue_banner.png,light blue banner,82,20
+minecraft:light_blue_bed,minecraft_light_blue_bed.png,light blue bed,73,87
+minecraft:light_blue_bundle,minecraft_light_blue_bundle.png,light blue bundle,56,43
+minecraft:light_blue_candle,minecraft_light_blue_candle.png,light blue candle,87,6
+minecraft:light_blue_carpet,minecraft_light_blue_carpet.png,light blue carpet,41,41
+minecraft:light_blue_concrete,minecraft_light_blue_concrete.png,light blue concrete,36,76
+minecraft:light_blue_concrete_powder,minecraft_light_blue_concrete_powder.png,light blue concrete powder,59,98
+minecraft:light_blue_dye,minecraft_light_blue_dye.png,light blue dye,59,97
+minecraft:light_blue_glazed_terracotta,minecraft_light_blue_glazed_terracotta.png,light blue glazed terracotta,9,74
+minecraft:light_blue_shulker_box,minecraft_light_blue_shulker_box.png,light blue shulker box,79,83
+minecraft:light_blue_stained_glass,minecraft_light_blue_stained_glass.png,light blue stained glass,54,54
+minecraft:light_blue_stained_glass_pane,minecraft_light_blue_stained_glass_pane.png,light blue stained glass pane,74,7
+minecraft:light_blue_terracotta,minecraft_light_blue_terracotta.png,light blue terracotta,16,20
+minecraft:light_blue_wool,minecraft_light_blue_wool.png,light blue wool,1,46
+minecraft:light_gray_banner,minecraft_light_gray_banner.png,light gray banner,53,10
+minecraft:light_gray_bed,minecraft_light_gray_bed.png,light gray bed,21,6
+minecraft:light_gray_bundle,minecraft_light_gray_bundle.png,light gray bundle,24,63
+minecraft:light_gray_candle,minecraft_light_gray_candle.png,light gray candle,3,40
+minecraft:light_gray_carpet,minecraft_light_gray_carpet.png,light gray carpet,62,83
+minecraft:light_gray_concrete,minecraft_light_gray_concrete.png,light gray concrete,2,59
+minecraft:light_gray_concrete_powder,minecraft_light_gray_concrete_powder.png,light gray concrete powder,26,46
+minecraft:light_gray_dye,minecraft_light_gray_dye.png,light gray dye,91,90
+minecraft:light_gray_glazed_terracotta,minecraft_light_gray_glazed_terracotta.png,light gray glazed terracotta,96,85
+minecraft:light_gray_shulker_box,minecraft_light_gray_shulker_box.png,light gray shulker box,4,90
+minecraft:light_gray_stained_glass,minecraft_light_gray_stained_glass.png,light gray stained glass,48,14
+minecraft:light_gray_stained_glass_pane,minecraft_light_gray_stained_glass_pane.png,light gray stained glass pane,30,7
+minecraft:light_gray_terracotta,minecraft_light_gray_terracotta.png,light gray terracotta,78,67
+minecraft:light_gray_wool,minecraft_light_gray_wool.png,light gray wool,53,85
+minecraft:light_weighted_pressure_plate,minecraft_light_weighted_pressure_plate.png,light weighted pressure plate,0,30
+minecraft:lilac,minecraft_lilac.png,lilac,41,94
+minecraft:lily_of_the_valley,minecraft_lily_of_the_valley.png,lily of the valley,67,94
+minecraft:lily_pad,minecraft_lily_pad.png,lily pad,26,47
+minecraft:lime_banner,minecraft_lime_banner.png,lime banner,13,94
+minecraft:lime_bed,minecraft_lime_bed.png,lime bed,64,35
+minecraft:lime_bundle,minecraft_lime_bundle.png,lime bundle,2,98
+minecraft:lime_candle,minecraft_lime_candle.png,lime candle,41,72
+minecraft:lime_carpet,minecraft_lime_carpet.png,lime carpet,29,10
+minecraft:lime_concrete,minecraft_lime_concrete.png,lime concrete,3,16
+minecraft:lime_concrete_powder,minecraft_lime_concrete_powder.png,lime concrete powder,14,100
+minecraft:lime_dye,minecraft_lime_dye.png,lime dye,55,69
+minecraft:lime_glazed_terracotta,minecraft_lime_glazed_terracotta.png,lime glazed terracotta,83,71
+minecraft:lime_shulker_box,minecraft_lime_shulker_box.png,lime shulker box,8,29
+minecraft:lime_stained_glass,minecraft_lime_stained_glass.png,lime stained glass,13,59
+minecraft:lime_stained_glass_pane,minecraft_lime_stained_glass_pane.png,lime stained glass pane,95,10
+minecraft:lime_terracotta,minecraft_lime_terracotta.png,lime terracotta,52,47
+minecraft:lime_wool,minecraft_lime_wool.png,lime wool,82,29
+minecraft:lingering_potion,minecraft_lingering_potion.png,lingering potion,21,30
+minecraft:llama_spawn_egg,minecraft_llama_spawn_egg.png,llama spawn egg,67,37
+minecraft:lodestone,minecraft_lodestone.png,lodestone,45,31
+minecraft:loom,minecraft_loom.png,loom,4,15
+minecraft:mace,minecraft_mace.png,mace,69,100
+minecraft:magenta_banner,minecraft_magenta_banner.png,magenta banner,52,48
+minecraft:magenta_bed,minecraft_magenta_bed.png,magenta bed,68,27
+minecraft:magenta_bundle,minecraft_magenta_bundle.png,magenta bundle,87,59
+minecraft:magenta_candle,minecraft_magenta_candle.png,magenta candle,59,100
+minecraft:magenta_carpet,minecraft_magenta_carpet.png,magenta carpet,34,32
+minecraft:magenta_concrete,minecraft_magenta_concrete.png,magenta concrete,51,56
+minecraft:magenta_concrete_powder,minecraft_magenta_concrete_powder.png,magenta concrete powder,60,52
+minecraft:magenta_dye,minecraft_magenta_dye.png,magenta dye,58,73
+minecraft:magenta_glazed_terracotta,minecraft_magenta_glazed_terracotta.png,magenta glazed terracotta,65,75
+minecraft:magenta_shulker_box,minecraft_magenta_shulker_box.png,magenta shulker box,68,23
+minecraft:magenta_stained_glass,minecraft_magenta_stained_glass.png,magenta stained glass,87,39
+minecraft:magenta_stained_glass_pane,minecraft_magenta_stained_glass_pane.png,magenta stained glass pane,55,47
+minecraft:magenta_terracotta,minecraft_magenta_terracotta.png,magenta terracotta,42,46
+minecraft:magenta_wool,minecraft_magenta_wool.png,magenta wool,71,36
+minecraft:magma_block,minecraft_magma_block.png,magma block,41,99
+minecraft:magma_cream,minecraft_magma_cream.png,magma cream,84,68
+minecraft:magma_cube_spawn_egg,minecraft_magma_cube_spawn_egg.png,magma cube spawn egg,22,71
+minecraft:mangrove_boat,minecraft_mangrove_boat.png,mangrove boat,6,87
+minecraft:mangrove_button,minecraft_mangrove_button.png,mangrove button,27,98
+minecraft:mangrove_chest_boat,minecraft_mangrove_chest_boat.png,mangrove chest boat,99,10
+minecraft:mangrove_door,minecraft_mangrove_door.png,mangrove door,91,98
+minecraft:mangrove_fence,minecraft_mangrove_fence.png,mangrove fence,78,29
+minecraft:mangrove_fence_gate,minecraft_mangrove_fence_gate.png,mangrove fence gate,24,60
+minecraft:mangrove_hanging_sign,minecraft_mangrove_hanging_sign.png,mangrove hanging sign,98,72
+minecraft:mangrove_leaves,minecraft_mangrove_leaves.png,mangrove leaves,69,16
+minecraft:mangrove_log,minecraft_mangrove_log.png,mangrove log,21,14
+minecraft:mangrove_planks,minecraft_mangrove_planks.png,mangrove planks,100,0
+minecraft:mangrove_pressure_plate,minecraft_mangrove_pressure_plate.png,mangrove pressure plate,17,75
+minecraft:mangrove_propagule,minecraft_mangrove_propagule.png,mangrove propagule,61,43
+minecraft:mangrove_roots,minecraft_mangrove_roots.png,mangrove roots,37,88
+minecraft:mangrove_sign,minecraft_mangrove_sign.png,mangrove sign,71,5
+minecraft:mangrove_slab,minecraft_mangrove_slab.png,mangrove slab,97,95
+minecraft:mangrove_stairs,minecraft_mangrove_stairs.png,mangrove stairs,43,42
+minecraft:mangrove_trapdoor,minecraft_mangrove_trapdoor.png,mangrove trapdoor,67,68
+minecraft:mangrove_wood,minecraft_mangrove_wood.png,mangrove wood,41,32
+minecraft:map,minecraft_map.png,map,58,83
+minecraft:medium_amethyst_bud,minecraft_medium_amethyst_bud.png,medium amethyst bud,66,100
+minecraft:melon,minecraft_melon.png,melon,56,28
+minecraft:melon_seeds,minecraft_melon_seeds.png,melon seeds,44,68
+minecraft:melon_slice,minecraft_melon_slice.png,melon slice,73,77
+minecraft:milk_bucket,minecraft_milk_bucket.png,milk bucket,52,43
+minecraft:minecart,minecraft_minecart.png,minecart,71,18
+minecraft:miner_pottery_sherd,minecraft_miner_pottery_sherd.png,miner pottery sherd,85,38
+minecraft:mojang_banner_pattern,minecraft_mojang_banner_pattern.png,mojang banner pattern,7,24
+minecraft:mooshroom_spawn_egg,minecraft_mooshroom_spawn_egg.png,mooshroom spawn egg,42,2
+minecraft:mossy_cobblestone,minecraft_mossy_cobblestone.png,mossy cobblestone,27,62
+minecraft:mossy_cobblestone_slab,minecraft_mossy_cobblestone_slab.png,mossy cobblestone slab,25,98
+minecraft:mossy_cobblestone_stairs,minecraft_mossy_cobblestone_stairs.png,mossy cobblestone stairs,82,1
+minecraft:mossy_cobblestone_wall,minecraft_mossy_cobblestone_wall.png,mossy cobblestone wall,29,62
+minecraft:mossy_stone_bricks,minecraft_mossy_stone_bricks.png,mossy stone bricks,63,18
+minecraft:mossy_stone_brick_slab,minecraft_mossy_stone_brick_slab.png,mossy stone brick slab,31,31
+minecraft:mossy_stone_brick_stairs,minecraft_mossy_stone_brick_stairs.png,mossy stone brick stairs,61,0
+minecraft:mossy_stone_brick_wall,minecraft_mossy_stone_brick_wall.png,mossy stone brick wall,76,86
+minecraft:moss_block,minecraft_moss_block.png,moss block,8,57
+minecraft:moss_carpet,minecraft_moss_carpet.png,moss carpet,91,58
+minecraft:mourner_pottery_sherd,minecraft_mourner_pottery_sherd.png,mourner pottery sherd,42,98
+minecraft:mud,minecraft_mud.png,mud,79,85
+minecraft:muddy_mangrove_roots,minecraft_muddy_mangrove_roots.png,muddy mangrove roots,55,99
+minecraft:mud_bricks,minecraft_mud_bricks.png,mud bricks,65,26
+minecraft:mud_brick_slab,minecraft_mud_brick_slab.png,mud brick slab,95,25
+minecraft:mud_brick_stairs,minecraft_mud_brick_stairs.png,mud brick stairs,9,80
+minecraft:mud_brick_wall,minecraft_mud_brick_wall.png,mud brick wall,54,53
+minecraft:mule_spawn_egg,minecraft_mule_spawn_egg.png,mule spawn egg,36,38
+minecraft:mushroom_stem,minecraft_mushroom_stem.png,mushroom stem,63,93
+minecraft:mushroom_stew,minecraft_mushroom_stew.png,mushroom stew,0,24
+minecraft:music_disc_11,minecraft_music_disc_11.png,music disc 11,79,20
+minecraft:music_disc_13,minecraft_music_disc_13.png,music disc 13,42,42
+minecraft:music_disc_5,minecraft_music_disc_5.png,music disc 5,26,57
+minecraft:music_disc_blocks,minecraft_music_disc_blocks.png,music disc blocks,71,44
+minecraft:music_disc_cat,minecraft_music_disc_cat.png,music disc cat,55,47
+minecraft:music_disc_chirp,minecraft_music_disc_chirp.png,music disc chirp,14,71
+minecraft:music_disc_creator,minecraft_music_disc_creator.png,music disc creator,26,39
+minecraft:music_disc_creator_music_box,minecraft_music_disc_creator_music_box.png,music disc creator music box,71,26
+minecraft:music_disc_far,minecraft_music_disc_far.png,music disc far,83,47
+minecraft:music_disc_mall,minecraft_music_disc_mall.png,music disc mall,51,23
+minecraft:music_disc_mellohi,minecraft_music_disc_mellohi.png,music disc mellohi,43,100
+minecraft:music_disc_otherside,minecraft_music_disc_otherside.png,music disc otherside,50,65
+minecraft:music_disc_pigstep,minecraft_music_disc_pigstep.png,music disc pigstep,93,48
+minecraft:music_disc_precipice,minecraft_music_disc_precipice.png,music disc precipice,79,39
+minecraft:music_disc_relic,minecraft_music_disc_relic.png,music disc relic,59,45
+minecraft:music_disc_stal,minecraft_music_disc_stal.png,music disc stal,5,39
+minecraft:music_disc_strad,minecraft_music_disc_strad.png,music disc strad,81,20
+minecraft:music_disc_wait,minecraft_music_disc_wait.png,music disc wait,10,50
+minecraft:music_disc_ward,minecraft_music_disc_ward.png,music disc ward,45,51
+minecraft:mutton,minecraft_mutton.png,mutton,88,81
+minecraft:mycelium,minecraft_mycelium.png,mycelium,1,55
+minecraft:name_tag,minecraft_name_tag.png,name tag,51,25
+minecraft:nautilus_shell,minecraft_nautilus_shell.png,nautilus shell,0,90
+minecraft:netherite_axe,minecraft_netherite_axe.png,netherite axe,38,47
+minecraft:netherite_block,minecraft_netherite_block.png,netherite block,53,91
+minecraft:netherite_boots,minecraft_netherite_boots.png,netherite boots,66,29
+minecraft:netherite_chestplate,minecraft_netherite_chestplate.png,netherite chestplate,97,68
+minecraft:netherite_helmet,minecraft_netherite_helmet.png,netherite helmet,19,70
+minecraft:netherite_hoe,minecraft_netherite_hoe.png,netherite hoe,10,77
+minecraft:netherite_ingot,minecraft_netherite_ingot.png,netherite ingot,8,36
+minecraft:netherite_leggings,minecraft_netherite_leggings.png,netherite leggings,25,39
+minecraft:netherite_pickaxe,minecraft_netherite_pickaxe.png,netherite pickaxe,78,75
+minecraft:netherite_scrap,minecraft_netherite_scrap.png,netherite scrap,92,25
+minecraft:netherite_shovel,minecraft_netherite_shovel.png,netherite shovel,28,51
+minecraft:netherite_sword,minecraft_netherite_sword.png,netherite sword,94,11
+minecraft:netherite_upgrade_smithing_template,minecraft_netherite_upgrade_smithing_template.png,netherite upgrade smithing template,34,61
+minecraft:netherrack,minecraft_netherrack.png,netherrack,70,66
+minecraft:nether_brick,minecraft_nether_brick.png,nether brick,59,14
+minecraft:nether_bricks,minecraft_nether_bricks.png,nether bricks,65,75
+minecraft:nether_brick_fence,minecraft_nether_brick_fence.png,nether brick fence,38,61
+minecraft:nether_brick_slab,minecraft_nether_brick_slab.png,nether brick slab,83,1
+minecraft:nether_brick_stairs,minecraft_nether_brick_stairs.png,nether brick stairs,22,68
+minecraft:nether_brick_wall,minecraft_nether_brick_wall.png,nether brick wall,93,55
+minecraft:nether_gold_ore,minecraft_nether_gold_ore.png,nether gold ore,90,6
+minecraft:nether_quartz_ore,minecraft_nether_quartz_ore.png,nether quartz ore,22,27
+minecraft:nether_sprouts,minecraft_nether_sprouts.png,nether sprouts,49,63
+minecraft:nether_star,minecraft_nether_star.png,nether star,83,15
+minecraft:nether_wart,minecraft_nether_wart.png,nether wart,25,58
+minecraft:nether_wart_block,minecraft_nether_wart_block.png,nether wart block,79,0
+minecraft:note_block,minecraft_note_block.png,note block,7,34
+minecraft:oak_boat,minecraft_oak_boat.png,oak boat,80,94
+minecraft:oak_button,minecraft_oak_button.png,oak button,96,39
+minecraft:oak_chest_boat,minecraft_oak_chest_boat.png,oak chest boat,25,20
+minecraft:oak_door,minecraft_oak_door.png,oak door,35,89
+minecraft:oak_fence,minecraft_oak_fence.png,oak fence,4,5
+minecraft:oak_fence_gate,minecraft_oak_fence_gate.png,oak fence gate,69,41
+minecraft:oak_hanging_sign,minecraft_oak_hanging_sign.png,oak hanging sign,73,21
+minecraft:oak_leaves,minecraft_oak_leaves.png,oak leaves,57,10
+minecraft:oak_log,minecraft_oak_log.png,oak log,92,31
+minecraft:oak_planks,minecraft_oak_planks.png,oak planks,18,22
+minecraft:oak_pressure_plate,minecraft_oak_pressure_plate.png,oak pressure plate,77,6
+minecraft:oak_sapling,minecraft_oak_sapling.png,oak sapling,52,15
+minecraft:oak_sign,minecraft_oak_sign.png,oak sign,32,84
+minecraft:oak_slab,minecraft_oak_slab.png,oak slab,4,38
+minecraft:oak_stairs,minecraft_oak_stairs.png,oak stairs,3,67
+minecraft:oak_trapdoor,minecraft_oak_trapdoor.png,oak trapdoor,28,15
+minecraft:oak_wood,minecraft_oak_wood.png,oak wood,65,13
+minecraft:observer,minecraft_observer.png,observer,6,48
+minecraft:obsidian,minecraft_obsidian.png,obsidian,6,43
+minecraft:ocelot_spawn_egg,minecraft_ocelot_spawn_egg.png,ocelot spawn egg,79,76
+minecraft:ochre_froglight,minecraft_ochre_froglight.png,ochre froglight,96,50
+minecraft:ominous_bottle,minecraft_ominous_bottle.png,ominous bottle,100,59
+minecraft:ominous_trial_key,minecraft_ominous_trial_key.png,ominous trial key,41,37
+minecraft:open_eyeblossom,minecraft_open_eyeblossom.png,open eyeblossom,95,40
+minecraft:orange_banner,minecraft_orange_banner.png,orange banner,90,73
+minecraft:orange_bed,minecraft_orange_bed.png,orange bed,29,16
+minecraft:orange_bundle,minecraft_orange_bundle.png,orange bundle,38,44
+minecraft:orange_candle,minecraft_orange_candle.png,orange candle,95,55
+minecraft:orange_carpet,minecraft_orange_carpet.png,orange carpet,11,69
+minecraft:orange_concrete,minecraft_orange_concrete.png,orange concrete,48,19
+minecraft:orange_concrete_powder,minecraft_orange_concrete_powder.png,orange concrete powder,43,88
+minecraft:orange_dye,minecraft_orange_dye.png,orange dye,100,47
+minecraft:orange_glazed_terracotta,minecraft_orange_glazed_terracotta.png,orange glazed terracotta,7,45
+minecraft:orange_shulker_box,minecraft_orange_shulker_box.png,orange shulker box,46,19
+minecraft:orange_stained_glass,minecraft_orange_stained_glass.png,orange stained glass,88,27
+minecraft:orange_stained_glass_pane,minecraft_orange_stained_glass_pane.png,orange stained glass pane,71,74
+minecraft:orange_terracotta,minecraft_orange_terracotta.png,orange terracotta,55,23
+minecraft:orange_tulip,minecraft_orange_tulip.png,orange tulip,15,100
+minecraft:orange_wool,minecraft_orange_wool.png,orange wool,14,5
+minecraft:oxeye_daisy,minecraft_oxeye_daisy.png,oxeye daisy,41,3
+minecraft:oxidized_chiseled_copper,minecraft_oxidized_chiseled_copper.png,oxidized chiseled copper,17,3
+minecraft:oxidized_copper,minecraft_oxidized_copper.png,oxidized copper,2,12
+minecraft:oxidized_copper_bulb,minecraft_oxidized_copper_bulb.png,oxidized copper bulb,46,95
+minecraft:oxidized_copper_door,minecraft_oxidized_copper_door.png,oxidized copper door,22,14
+minecraft:oxidized_copper_grate,minecraft_oxidized_copper_grate.png,oxidized copper grate,29,60
+minecraft:oxidized_copper_trapdoor,minecraft_oxidized_copper_trapdoor.png,oxidized copper trapdoor,96,43
+minecraft:oxidized_cut_copper,minecraft_oxidized_cut_copper.png,oxidized cut copper,3,11
+minecraft:oxidized_cut_copper_slab,minecraft_oxidized_cut_copper_slab.png,oxidized cut copper slab,98,73
+minecraft:oxidized_cut_copper_stairs,minecraft_oxidized_cut_copper_stairs.png,oxidized cut copper stairs,9,93
+minecraft:packed_ice,minecraft_packed_ice.png,packed ice,57,46
+minecraft:packed_mud,minecraft_packed_mud.png,packed mud,91,31
+minecraft:painting,minecraft_painting.png,painting,84,14
+minecraft:pale_hanging_moss,minecraft_pale_hanging_moss.png,pale hanging moss,5,54
+minecraft:pale_moss_block,minecraft_pale_moss_block.png,pale moss block,25,90
+minecraft:pale_moss_carpet,minecraft_pale_moss_carpet.png,pale moss carpet,84,70
+minecraft:pale_oak_boat,minecraft_pale_oak_boat.png,pale oak boat,82,73
+minecraft:pale_oak_button,minecraft_pale_oak_button.png,pale oak button,45,23
+minecraft:pale_oak_chest_boat,minecraft_pale_oak_chest_boat.png,pale oak chest boat,36,26
+minecraft:pale_oak_door,minecraft_pale_oak_door.png,pale oak door,85,18
+minecraft:pale_oak_fence,minecraft_pale_oak_fence.png,pale oak fence,22,73
+minecraft:pale_oak_fence_gate,minecraft_pale_oak_fence_gate.png,pale oak fence gate,26,4
+minecraft:pale_oak_hanging_sign,minecraft_pale_oak_hanging_sign.png,pale oak hanging sign,98,81
+minecraft:pale_oak_leaves,minecraft_pale_oak_leaves.png,pale oak leaves,2,59
+minecraft:pale_oak_log,minecraft_pale_oak_log.png,pale oak log,20,22
+minecraft:pale_oak_planks,minecraft_pale_oak_planks.png,pale oak planks,88,91
+minecraft:pale_oak_pressure_plate,minecraft_pale_oak_pressure_plate.png,pale oak pressure plate,46,84
+minecraft:pale_oak_sapling,minecraft_pale_oak_sapling.png,pale oak sapling,64,99
+minecraft:pale_oak_sign,minecraft_pale_oak_sign.png,pale oak sign,10,64
+minecraft:pale_oak_slab,minecraft_pale_oak_slab.png,pale oak slab,33,4
+minecraft:pale_oak_stairs,minecraft_pale_oak_stairs.png,pale oak stairs,16,79
+minecraft:pale_oak_trapdoor,minecraft_pale_oak_trapdoor.png,pale oak trapdoor,59,16
+minecraft:pale_oak_wood,minecraft_pale_oak_wood.png,pale oak wood,0,32
+minecraft:panda_spawn_egg,minecraft_panda_spawn_egg.png,panda spawn egg,40,82
+minecraft:paper,minecraft_paper.png,paper,56,83
+minecraft:parrot_spawn_egg,minecraft_parrot_spawn_egg.png,parrot spawn egg,73,6
+minecraft:pearlescent_froglight,minecraft_pearlescent_froglight.png,pearlescent froglight,53,89
+minecraft:peony,minecraft_peony.png,peony,25,10
+minecraft:petrified_oak_slab,minecraft_petrified_oak_slab.png,petrified oak slab,45,59
+minecraft:phantom_membrane,minecraft_phantom_membrane.png,phantom membrane,28,21
+minecraft:phantom_spawn_egg,minecraft_phantom_spawn_egg.png,phantom spawn egg,3,87
+minecraft:piglin_banner_pattern,minecraft_piglin_banner_pattern.png,piglin banner pattern,53,22
+minecraft:piglin_brute_spawn_egg,minecraft_piglin_brute_spawn_egg.png,piglin brute spawn egg,79,85
+minecraft:piglin_head,minecraft_piglin_head.png,piglin head,69,49
+minecraft:piglin_spawn_egg,minecraft_piglin_spawn_egg.png,piglin spawn egg,77,35
+minecraft:pig_spawn_egg,minecraft_pig_spawn_egg.png,pig spawn egg,54,46
+minecraft:pillager_spawn_egg,minecraft_pillager_spawn_egg.png,pillager spawn egg,59,98
+minecraft:pink_banner,minecraft_pink_banner.png,pink banner,99,32
+minecraft:pink_bed,minecraft_pink_bed.png,pink bed,72,63
+minecraft:pink_bundle,minecraft_pink_bundle.png,pink bundle,39,37
+minecraft:pink_candle,minecraft_pink_candle.png,pink candle,18,32
+minecraft:pink_carpet,minecraft_pink_carpet.png,pink carpet,81,58
+minecraft:pink_concrete,minecraft_pink_concrete.png,pink concrete,62,25
+minecraft:pink_concrete_powder,minecraft_pink_concrete_powder.png,pink concrete powder,87,83
+minecraft:pink_dye,minecraft_pink_dye.png,pink dye,82,84
+minecraft:pink_glazed_terracotta,minecraft_pink_glazed_terracotta.png,pink glazed terracotta,72,15
+minecraft:pink_petals,minecraft_pink_petals.png,pink petals,53,39
+minecraft:pink_shulker_box,minecraft_pink_shulker_box.png,pink shulker box,34,27
+minecraft:pink_stained_glass,minecraft_pink_stained_glass.png,pink stained glass,29,4
+minecraft:pink_stained_glass_pane,minecraft_pink_stained_glass_pane.png,pink stained glass pane,84,76
+minecraft:pink_terracotta,minecraft_pink_terracotta.png,pink terracotta,76,73
+minecraft:pink_tulip,minecraft_pink_tulip.png,pink tulip,78,43
+minecraft:pink_wool,minecraft_pink_wool.png,pink wool,46,64
+minecraft:piston,minecraft_piston.png,piston,14,1
+minecraft:pitcher_plant,minecraft_pitcher_plant.png,pitcher plant,4,76
+minecraft:pitcher_pod,minecraft_pitcher_pod.png,pitcher pod,77,59
+minecraft:player_head,minecraft_player_head.png,player head,11,41
+minecraft:plenty_pottery_sherd,minecraft_plenty_pottery_sherd.png,plenty pottery sherd,34,43
+minecraft:podzol,minecraft_podzol.png,podzol,60,85
+minecraft:pointed_dripstone,minecraft_pointed_dripstone.png,pointed dripstone,76,31
+minecraft:poisonous_potato,minecraft_poisonous_potato.png,poisonous potato,79,1
+minecraft:polar_bear_spawn_egg,minecraft_polar_bear_spawn_egg.png,polar bear spawn egg,48,4
+minecraft:polished_andesite,minecraft_polished_andesite.png,polished andesite,94,94
+minecraft:polished_andesite_slab,minecraft_polished_andesite_slab.png,polished andesite slab,63,83
+minecraft:polished_andesite_stairs,minecraft_polished_andesite_stairs.png,polished andesite stairs,59,8
+minecraft:polished_basalt,minecraft_polished_basalt.png,polished basalt,79,56
+minecraft:polished_blackstone,minecraft_polished_blackstone.png,polished blackstone,67,78
+minecraft:polished_blackstone_bricks,minecraft_polished_blackstone_bricks.png,polished blackstone bricks,0,72
+minecraft:polished_blackstone_brick_slab,minecraft_polished_blackstone_brick_slab.png,polished blackstone brick slab,35,48
+minecraft:polished_blackstone_brick_stairs,minecraft_polished_blackstone_brick_stairs.png,polished blackstone brick stairs,13,76
+minecraft:polished_blackstone_brick_wall,minecraft_polished_blackstone_brick_wall.png,polished blackstone brick wall,98,42
+minecraft:polished_blackstone_button,minecraft_polished_blackstone_button.png,polished blackstone button,86,33
+minecraft:polished_blackstone_pressure_plate,minecraft_polished_blackstone_pressure_plate.png,polished blackstone pressure plate,84,91
+minecraft:polished_blackstone_slab,minecraft_polished_blackstone_slab.png,polished blackstone slab,84,56
+minecraft:polished_blackstone_stairs,minecraft_polished_blackstone_stairs.png,polished blackstone stairs,4,67
+minecraft:polished_blackstone_wall,minecraft_polished_blackstone_wall.png,polished blackstone wall,81,43
+minecraft:polished_deepslate,minecraft_polished_deepslate.png,polished deepslate,80,97
+minecraft:polished_deepslate_slab,minecraft_polished_deepslate_slab.png,polished deepslate slab,67,2
+minecraft:polished_deepslate_stairs,minecraft_polished_deepslate_stairs.png,polished deepslate stairs,66,97
+minecraft:polished_deepslate_wall,minecraft_polished_deepslate_wall.png,polished deepslate wall,8,32
+minecraft:polished_diorite,minecraft_polished_diorite.png,polished diorite,99,54
+minecraft:polished_diorite_slab,minecraft_polished_diorite_slab.png,polished diorite slab,28,93
+minecraft:polished_diorite_stairs,minecraft_polished_diorite_stairs.png,polished diorite stairs,90,51
+minecraft:polished_granite,minecraft_polished_granite.png,polished granite,47,55
+minecraft:polished_granite_slab,minecraft_polished_granite_slab.png,polished granite slab,54,48
+minecraft:polished_granite_stairs,minecraft_polished_granite_stairs.png,polished granite stairs,70,85
+minecraft:polished_tuff,minecraft_polished_tuff.png,polished tuff,40,44
+minecraft:polished_tuff_slab,minecraft_polished_tuff_slab.png,polished tuff slab,3,54
+minecraft:polished_tuff_stairs,minecraft_polished_tuff_stairs.png,polished tuff stairs,96,49
+minecraft:polished_tuff_wall,minecraft_polished_tuff_wall.png,polished tuff wall,33,40
+minecraft:popped_chorus_fruit,minecraft_popped_chorus_fruit.png,popped chorus fruit,50,92
+minecraft:poppy,minecraft_poppy.png,poppy,0,36
+minecraft:porkchop,minecraft_porkchop.png,porkchop,80,9
+minecraft:potato,minecraft_potato.png,potato,1,96
+minecraft:potion,minecraft_potion.png,potion,39,95
+minecraft:powder_snow_bucket,minecraft_powder_snow_bucket.png,powder snow bucket,40,52
+minecraft:powered_rail,minecraft_powered_rail.png,powered rail,72,24
+minecraft:prismarine,minecraft_prismarine.png,prismarine,95,86
+minecraft:prismarine_bricks,minecraft_prismarine_bricks.png,prismarine bricks,76,76
+minecraft:prismarine_brick_slab,minecraft_prismarine_brick_slab.png,prismarine brick slab,51,33
+minecraft:prismarine_brick_stairs,minecraft_prismarine_brick_stairs.png,prismarine brick stairs,82,76
+minecraft:prismarine_crystals,minecraft_prismarine_crystals.png,prismarine crystals,58,76
+minecraft:prismarine_shard,minecraft_prismarine_shard.png,prismarine shard,28,83
+minecraft:prismarine_slab,minecraft_prismarine_slab.png,prismarine slab,7,25
+minecraft:prismarine_stairs,minecraft_prismarine_stairs.png,prismarine stairs,14,74
+minecraft:prismarine_wall,minecraft_prismarine_wall.png,prismarine wall,32,45
+minecraft:prize_pottery_sherd,minecraft_prize_pottery_sherd.png,prize pottery sherd,37,8
+minecraft:pufferfish,minecraft_pufferfish.png,pufferfish,12,66
+minecraft:pufferfish_bucket,minecraft_pufferfish_bucket.png,pufferfish bucket,10,31
+minecraft:pufferfish_spawn_egg,minecraft_pufferfish_spawn_egg.png,pufferfish spawn egg,92,51
+minecraft:pumpkin,minecraft_pumpkin.png,pumpkin,69,49
+minecraft:pumpkin_pie,minecraft_pumpkin_pie.png,pumpkin pie,36,49
+minecraft:pumpkin_seeds,minecraft_pumpkin_seeds.png,pumpkin seeds,99,59
+minecraft:purple_banner,minecraft_purple_banner.png,purple banner,34,11
+minecraft:purple_bed,minecraft_purple_bed.png,purple bed,55,38
+minecraft:purple_bundle,minecraft_purple_bundle.png,purple bundle,0,90
+minecraft:purple_candle,minecraft_purple_candle.png,purple candle,81,33
+minecraft:purple_carpet,minecraft_purple_carpet.png,purple carpet,84,48
+minecraft:purple_concrete,minecraft_purple_concrete.png,purple concrete,96,25
+minecraft:purple_concrete_powder,minecraft_purple_concrete_powder.png,purple concrete powder,44,34
+minecraft:purple_dye,minecraft_purple_dye.png,purple dye,74,67
+minecraft:purple_glazed_terracotta,minecraft_purple_glazed_terracotta.png,purple glazed terracotta,38,31
+minecraft:purple_shulker_box,minecraft_purple_shulker_box.png,purple shulker box,42,70
+minecraft:purple_stained_glass,minecraft_purple_stained_glass.png,purple stained glass,6,15
+minecraft:purple_stained_glass_pane,minecraft_purple_stained_glass_pane.png,purple stained glass pane,10,24
+minecraft:purple_terracotta,minecraft_purple_terracotta.png,purple terracotta,71,98
+minecraft:purple_wool,minecraft_purple_wool.png,purple wool,67,93
+minecraft:purpur_block,minecraft_purpur_block.png,purpur block,67,74
+minecraft:purpur_pillar,minecraft_purpur_pillar.png,purpur pillar,4,5
+minecraft:purpur_slab,minecraft_purpur_slab.png,purpur slab,53,15
+minecraft:purpur_stairs,minecraft_purpur_stairs.png,purpur stairs,43,21
+minecraft:quartz,minecraft_quartz.png,quartz,22,53
+minecraft:quartz_block,minecraft_quartz_block.png,quartz block,82,20
+minecraft:quartz_bricks,minecraft_quartz_bricks.png,quartz bricks,78,80
+minecraft:quartz_pillar,minecraft_quartz_pillar.png,quartz pillar,36,20
+minecraft:quartz_slab,minecraft_quartz_slab.png,quartz slab,81,53
+minecraft:quartz_stairs,minecraft_quartz_stairs.png,quartz stairs,51,79
+minecraft:rabbit,minecraft_rabbit.png,rabbit,54,69
+minecraft:rabbit_foot,minecraft_rabbit_foot.png,rabbit foot,55,41
+minecraft:rabbit_hide,minecraft_rabbit_hide.png,rabbit hide,65,73
+minecraft:rabbit_spawn_egg,minecraft_rabbit_spawn_egg.png,rabbit spawn egg,45,78
+minecraft:rabbit_stew,minecraft_rabbit_stew.png,rabbit stew,77,59
+minecraft:rail,minecraft_rail.png,rail,69,37
+minecraft:raiser_armor_trim_smithing_template,minecraft_raiser_armor_trim_smithing_template.png,raiser armor trim smithing template,5,31
+minecraft:ravager_spawn_egg,minecraft_ravager_spawn_egg.png,ravager spawn egg,38,79
+minecraft:raw_copper,minecraft_raw_copper.png,raw copper,94,39
+minecraft:raw_copper_block,minecraft_raw_copper_block.png,raw copper block,16,25
+minecraft:raw_gold,minecraft_raw_gold.png,raw gold,9,86
+minecraft:raw_gold_block,minecraft_raw_gold_block.png,raw gold block,7,25
+minecraft:raw_iron,minecraft_raw_iron.png,raw iron,79,85
+minecraft:raw_iron_block,minecraft_raw_iron_block.png,raw iron block,53,14
+minecraft:recovery_compass,minecraft_recovery_compass.png,recovery compass,89,41
+minecraft:redstone,minecraft_redstone.png,redstone,86,68
+minecraft:redstone_block,minecraft_redstone_block.png,redstone block,4,33
+minecraft:redstone_lamp,minecraft_redstone_lamp.png,redstone lamp,79,93
+minecraft:redstone_ore,minecraft_redstone_ore.png,redstone ore,64,30
+minecraft:redstone_torch,minecraft_redstone_torch.png,redstone torch,46,41
+minecraft:red_banner,minecraft_red_banner.png,red banner,37,60
+minecraft:red_bed,minecraft_red_bed.png,red bed,80,100
+minecraft:red_bundle,minecraft_red_bundle.png,red bundle,45,82
+minecraft:red_candle,minecraft_red_candle.png,red candle,11,67
+minecraft:red_carpet,minecraft_red_carpet.png,red carpet,51,52
+minecraft:red_concrete,minecraft_red_concrete.png,red concrete,23,19
+minecraft:red_concrete_powder,minecraft_red_concrete_powder.png,red concrete powder,10,2
+minecraft:red_dye,minecraft_red_dye.png,red dye,17,1
+minecraft:red_glazed_terracotta,minecraft_red_glazed_terracotta.png,red glazed terracotta,40,63
+minecraft:red_mushroom,minecraft_red_mushroom.png,red mushroom,66,19
+minecraft:red_mushroom_block,minecraft_red_mushroom_block.png,red mushroom block,87,14
+minecraft:red_nether_bricks,minecraft_red_nether_bricks.png,red nether bricks,75,85
+minecraft:red_nether_brick_slab,minecraft_red_nether_brick_slab.png,red nether brick slab,0,100
+minecraft:red_nether_brick_stairs,minecraft_red_nether_brick_stairs.png,red nether brick stairs,38,14
+minecraft:red_nether_brick_wall,minecraft_red_nether_brick_wall.png,red nether brick wall,95,74
+minecraft:red_sand,minecraft_red_sand.png,red sand,29,57
+minecraft:red_sandstone,minecraft_red_sandstone.png,red sandstone,92,58
+minecraft:red_sandstone_slab,minecraft_red_sandstone_slab.png,red sandstone slab,79,88
+minecraft:red_sandstone_stairs,minecraft_red_sandstone_stairs.png,red sandstone stairs,77,9
+minecraft:red_sandstone_wall,minecraft_red_sandstone_wall.png,red sandstone wall,84,51
+minecraft:red_shulker_box,minecraft_red_shulker_box.png,red shulker box,65,85
+minecraft:red_stained_glass,minecraft_red_stained_glass.png,red stained glass,45,94
+minecraft:red_stained_glass_pane,minecraft_red_stained_glass_pane.png,red stained glass pane,71,15
+minecraft:red_terracotta,minecraft_red_terracotta.png,red terracotta,20,86
+minecraft:red_tulip,minecraft_red_tulip.png,red tulip,97,52
+minecraft:red_wool,minecraft_red_wool.png,red wool,75,5
+minecraft:reinforced_deepslate,minecraft_reinforced_deepslate.png,reinforced deepslate,44,98
+minecraft:repeater,minecraft_repeater.png,repeater,87,86
+minecraft:repeating_command_block,minecraft_repeating_command_block.png,repeating command block,30,36
+minecraft:resin_block,minecraft_resin_block.png,resin block,68,6
+minecraft:resin_brick,minecraft_resin_brick.png,resin brick,95,50
+minecraft:resin_bricks,minecraft_resin_bricks.png,resin bricks,39,91
+minecraft:resin_brick_slab,minecraft_resin_brick_slab.png,resin brick slab,72,6
+minecraft:resin_brick_stairs,minecraft_resin_brick_stairs.png,resin brick stairs,99,74
+minecraft:resin_brick_wall,minecraft_resin_brick_wall.png,resin brick wall,21,26
+minecraft:resin_clump,minecraft_resin_clump.png,resin clump,37,71
+minecraft:respawn_anchor,minecraft_respawn_anchor.png,respawn anchor,77,71
+minecraft:rib_armor_trim_smithing_template,minecraft_rib_armor_trim_smithing_template.png,rib armor trim smithing template,7,92
+minecraft:rooted_dirt,minecraft_rooted_dirt.png,rooted dirt,96,31
+minecraft:rose_bush,minecraft_rose_bush.png,rose bush,93,65
+minecraft:rotten_flesh,minecraft_rotten_flesh.png,rotten flesh,19,65
+minecraft:saddle,minecraft_saddle.png,saddle,28,15
+minecraft:salmon,minecraft_salmon.png,salmon,26,99
+minecraft:salmon_bucket,minecraft_salmon_bucket.png,salmon bucket,87,90
+minecraft:salmon_spawn_egg,minecraft_salmon_spawn_egg.png,salmon spawn egg,78,34
+minecraft:sand,minecraft_sand.png,sand,31,55
+minecraft:sandstone,minecraft_sandstone.png,sandstone,9,95
+minecraft:sandstone_slab,minecraft_sandstone_slab.png,sandstone slab,33,97
+minecraft:sandstone_stairs,minecraft_sandstone_stairs.png,sandstone stairs,12,61
+minecraft:sandstone_wall,minecraft_sandstone_wall.png,sandstone wall,78,53
+minecraft:scaffolding,minecraft_scaffolding.png,scaffolding,22,49
+minecraft:scrape_pottery_sherd,minecraft_scrape_pottery_sherd.png,scrape pottery sherd,86,30
+minecraft:sculk,minecraft_sculk.png,sculk,21,61
+minecraft:sculk_catalyst,minecraft_sculk_catalyst.png,sculk catalyst,99,14
+minecraft:sculk_sensor,minecraft_sculk_sensor.png,sculk sensor,29,14
+minecraft:sculk_shrieker,minecraft_sculk_shrieker.png,sculk shrieker,93,86
+minecraft:sculk_vein,minecraft_sculk_vein.png,sculk vein,93,73
+minecraft:seagrass,minecraft_seagrass.png,seagrass,98,16
+minecraft:sea_lantern,minecraft_sea_lantern.png,sea lantern,73,94
+minecraft:sea_pickle,minecraft_sea_pickle.png,sea pickle,45,8
+minecraft:sentry_armor_trim_smithing_template,minecraft_sentry_armor_trim_smithing_template.png,sentry armor trim smithing template,62,87
+minecraft:shaper_armor_trim_smithing_template,minecraft_shaper_armor_trim_smithing_template.png,shaper armor trim smithing template,63,5
+minecraft:sheaf_pottery_sherd,minecraft_sheaf_pottery_sherd.png,sheaf pottery sherd,94,47
+minecraft:shears,minecraft_shears.png,shears,96,59
+minecraft:sheep_spawn_egg,minecraft_sheep_spawn_egg.png,sheep spawn egg,52,81
+minecraft:shelter_pottery_sherd,minecraft_shelter_pottery_sherd.png,shelter pottery sherd,42,28
+minecraft:shield,minecraft_shield.png,shield,18,91
+minecraft:short_dry_grass,minecraft_short_dry_grass.png,short dry grass,62,72
+minecraft:short_grass,minecraft_short_grass.png,short grass,41,20
+minecraft:shroomlight,minecraft_shroomlight.png,shroomlight,50,75
+minecraft:shulker_box,minecraft_shulker_box.png,shulker box,40,69
+minecraft:shulker_shell,minecraft_shulker_shell.png,shulker shell,1,98
+minecraft:shulker_spawn_egg,minecraft_shulker_spawn_egg.png,shulker spawn egg,24,69
+minecraft:silence_armor_trim_smithing_template,minecraft_silence_armor_trim_smithing_template.png,silence armor trim smithing template,69,26
+minecraft:silverfish_spawn_egg,minecraft_silverfish_spawn_egg.png,silverfish spawn egg,71,59
+minecraft:skeleton_horse_spawn_egg,minecraft_skeleton_horse_spawn_egg.png,skeleton horse spawn egg,37,74
+minecraft:skeleton_skull,minecraft_skeleton_skull.png,skeleton skull,50,66
+minecraft:skeleton_spawn_egg,minecraft_skeleton_spawn_egg.png,skeleton spawn egg,5,77
+minecraft:skull_banner_pattern,minecraft_skull_banner_pattern.png,skull banner pattern,29,73
+minecraft:skull_pottery_sherd,minecraft_skull_pottery_sherd.png,skull pottery sherd,78,58
+minecraft:slime_ball,minecraft_slime_ball.png,slime ball,16,100
+minecraft:slime_block,minecraft_slime_block.png,slime block,27,39
+minecraft:slime_spawn_egg,minecraft_slime_spawn_egg.png,slime spawn egg,60,70
+minecraft:small_amethyst_bud,minecraft_small_amethyst_bud.png,small amethyst bud,6,40
+minecraft:small_dripleaf,minecraft_small_dripleaf.png,small dripleaf,99,76
+minecraft:smithing_table,minecraft_smithing_table.png,smithing table,44,70
+minecraft:smoker,minecraft_smoker.png,smoker,40,54
+minecraft:smooth_basalt,minecraft_smooth_basalt.png,smooth basalt,99,61
+minecraft:smooth_quartz,minecraft_smooth_quartz.png,smooth quartz,92,8
+minecraft:smooth_quartz_slab,minecraft_smooth_quartz_slab.png,smooth quartz slab,76,3
+minecraft:smooth_quartz_stairs,minecraft_smooth_quartz_stairs.png,smooth quartz stairs,24,27
+minecraft:smooth_red_sandstone,minecraft_smooth_red_sandstone.png,smooth red sandstone,56,97
+minecraft:smooth_red_sandstone_slab,minecraft_smooth_red_sandstone_slab.png,smooth red sandstone slab,56,50
+minecraft:smooth_red_sandstone_stairs,minecraft_smooth_red_sandstone_stairs.png,smooth red sandstone stairs,33,56
+minecraft:smooth_sandstone,minecraft_smooth_sandstone.png,smooth sandstone,31,61
+minecraft:smooth_sandstone_slab,minecraft_smooth_sandstone_slab.png,smooth sandstone slab,49,55
+minecraft:smooth_sandstone_stairs,minecraft_smooth_sandstone_stairs.png,smooth sandstone stairs,59,21
+minecraft:smooth_stone,minecraft_smooth_stone.png,smooth stone,52,40
+minecraft:smooth_stone_slab,minecraft_smooth_stone_slab.png,smooth stone slab,45,98
+minecraft:sniffer_egg,minecraft_sniffer_egg.png,sniffer egg,6,82
+minecraft:sniffer_spawn_egg,minecraft_sniffer_spawn_egg.png,sniffer spawn egg,13,3
+minecraft:snort_pottery_sherd,minecraft_snort_pottery_sherd.png,snort pottery sherd,62,50
+minecraft:snout_armor_trim_smithing_template,minecraft_snout_armor_trim_smithing_template.png,snout armor trim smithing template,36,16
+minecraft:snow,minecraft_snow.png,snow,75,11
+minecraft:snowball,minecraft_snowball.png,snowball,8,49
+minecraft:snow_block,minecraft_snow_block.png,snow block,45,75
+minecraft:snow_golem_spawn_egg,minecraft_snow_golem_spawn_egg.png,snow golem spawn egg,22,49
+minecraft:soul_campfire,minecraft_soul_campfire.png,soul campfire,65,25
+minecraft:soul_lantern,minecraft_soul_lantern.png,soul lantern,42,41
+minecraft:soul_sand,minecraft_soul_sand.png,soul sand,48,97
+minecraft:soul_soil,minecraft_soul_soil.png,soul soil,68,72
+minecraft:soul_torch,minecraft_soul_torch.png,soul torch,41,8
+minecraft:spawner,minecraft_spawner.png,spawner,48,65
+minecraft:spectral_arrow,minecraft_spectral_arrow.png,spectral arrow,73,54
+minecraft:spider_eye,minecraft_spider_eye.png,spider eye,15,1
+minecraft:spider_spawn_egg,minecraft_spider_spawn_egg.png,spider spawn egg,56,98
+minecraft:spire_armor_trim_smithing_template,minecraft_spire_armor_trim_smithing_template.png,spire armor trim smithing template,81,90
+minecraft:splash_potion,minecraft_splash_potion.png,splash potion,11,79
+minecraft:sponge,minecraft_sponge.png,sponge,43,40
+minecraft:spore_blossom,minecraft_spore_blossom.png,spore blossom,82,57
+minecraft:spruce_boat,minecraft_spruce_boat.png,spruce boat,91,61
+minecraft:spruce_button,minecraft_spruce_button.png,spruce button,80,61
+minecraft:spruce_chest_boat,minecraft_spruce_chest_boat.png,spruce chest boat,15,40
+minecraft:spruce_door,minecraft_spruce_door.png,spruce door,12,33
+minecraft:spruce_fence,minecraft_spruce_fence.png,spruce fence,71,15
+minecraft:spruce_fence_gate,minecraft_spruce_fence_gate.png,spruce fence gate,48,44
+minecraft:spruce_hanging_sign,minecraft_spruce_hanging_sign.png,spruce hanging sign,31,58
+minecraft:spruce_leaves,minecraft_spruce_leaves.png,spruce leaves,17,80
+minecraft:spruce_log,minecraft_spruce_log.png,spruce log,63,57
+minecraft:spruce_planks,minecraft_spruce_planks.png,spruce planks,5,65
+minecraft:spruce_pressure_plate,minecraft_spruce_pressure_plate.png,spruce pressure plate,69,73
+minecraft:spruce_sapling,minecraft_spruce_sapling.png,spruce sapling,75,14
+minecraft:spruce_sign,minecraft_spruce_sign.png,spruce sign,36,72
+minecraft:spruce_slab,minecraft_spruce_slab.png,spruce slab,54,57
+minecraft:spruce_stairs,minecraft_spruce_stairs.png,spruce stairs,51,78
+minecraft:spruce_trapdoor,minecraft_spruce_trapdoor.png,spruce trapdoor,45,44
+minecraft:spruce_wood,minecraft_spruce_wood.png,spruce wood,47,62
+minecraft:spyglass,minecraft_spyglass.png,spyglass,21,97
+minecraft:squid_spawn_egg,minecraft_squid_spawn_egg.png,squid spawn egg,40,38
+minecraft:stick,minecraft_stick.png,stick,44,16
+minecraft:sticky_piston,minecraft_sticky_piston.png,sticky piston,58,30
+minecraft:stone,minecraft_stone.png,stone,19,8
+minecraft:stonecutter,minecraft_stonecutter.png,stonecutter,0,64
+minecraft:stone_axe,minecraft_stone_axe.png,stone axe,41,37
+minecraft:stone_bricks,minecraft_stone_bricks.png,stone bricks,64,4
+minecraft:stone_brick_slab,minecraft_stone_brick_slab.png,stone brick slab,61,60
+minecraft:stone_brick_stairs,minecraft_stone_brick_stairs.png,stone brick stairs,67,36
+minecraft:stone_brick_wall,minecraft_stone_brick_wall.png,stone brick wall,55,21
+minecraft:stone_button,minecraft_stone_button.png,stone button,48,83
+minecraft:stone_hoe,minecraft_stone_hoe.png,stone hoe,65,17
+minecraft:stone_pickaxe,minecraft_stone_pickaxe.png,stone pickaxe,50,80
+minecraft:stone_pressure_plate,minecraft_stone_pressure_plate.png,stone pressure plate,28,44
+minecraft:stone_shovel,minecraft_stone_shovel.png,stone shovel,57,90
+minecraft:stone_slab,minecraft_stone_slab.png,stone slab,69,57
+minecraft:stone_stairs,minecraft_stone_stairs.png,stone stairs,80,29
+minecraft:stone_sword,minecraft_stone_sword.png,stone sword,21,74
+minecraft:stray_spawn_egg,minecraft_stray_spawn_egg.png,stray spawn egg,38,69
+minecraft:strider_spawn_egg,minecraft_strider_spawn_egg.png,strider spawn egg,67,87
+minecraft:string,minecraft_string.png,string,61,56
+minecraft:stripped_acacia_log,minecraft_stripped_acacia_log.png,stripped acacia log,85,2
+minecraft:stripped_acacia_wood,minecraft_stripped_acacia_wood.png,stripped acacia wood,0,28
+minecraft:stripped_bamboo_block,minecraft_stripped_bamboo_block.png,stripped bamboo block,66,94
+minecraft:stripped_birch_log,minecraft_stripped_birch_log.png,stripped birch log,58,82
+minecraft:stripped_birch_wood,minecraft_stripped_birch_wood.png,stripped birch wood,95,100
+minecraft:stripped_cherry_log,minecraft_stripped_cherry_log.png,stripped cherry log,34,55
+minecraft:stripped_cherry_wood,minecraft_stripped_cherry_wood.png,stripped cherry wood,9,84
+minecraft:stripped_crimson_hyphae,minecraft_stripped_crimson_hyphae.png,stripped crimson hyphae,7,77
+minecraft:stripped_crimson_stem,minecraft_stripped_crimson_stem.png,stripped crimson stem,70,51
+minecraft:stripped_dark_oak_log,minecraft_stripped_dark_oak_log.png,stripped dark oak log,41,29
+minecraft:stripped_dark_oak_wood,minecraft_stripped_dark_oak_wood.png,stripped dark oak wood,58,34
+minecraft:stripped_jungle_log,minecraft_stripped_jungle_log.png,stripped jungle log,28,22
+minecraft:stripped_jungle_wood,minecraft_stripped_jungle_wood.png,stripped jungle wood,13,66
+minecraft:stripped_mangrove_log,minecraft_stripped_mangrove_log.png,stripped mangrove log,39,96
+minecraft:stripped_mangrove_wood,minecraft_stripped_mangrove_wood.png,stripped mangrove wood,72,89
+minecraft:stripped_oak_log,minecraft_stripped_oak_log.png,stripped oak log,79,66
+minecraft:stripped_oak_wood,minecraft_stripped_oak_wood.png,stripped oak wood,14,61
+minecraft:stripped_pale_oak_log,minecraft_stripped_pale_oak_log.png,stripped pale oak log,37,34
+minecraft:stripped_pale_oak_wood,minecraft_stripped_pale_oak_wood.png,stripped pale oak wood,89,90
+minecraft:stripped_spruce_log,minecraft_stripped_spruce_log.png,stripped spruce log,58,30
+minecraft:stripped_spruce_wood,minecraft_stripped_spruce_wood.png,stripped spruce wood,84,82
+minecraft:stripped_warped_hyphae,minecraft_stripped_warped_hyphae.png,stripped warped hyphae,79,19
+minecraft:stripped_warped_stem,minecraft_stripped_warped_stem.png,stripped warped stem,9,35
+minecraft:structure_block,minecraft_structure_block.png,structure block,28,88
+minecraft:structure_void,minecraft_structure_void.png,structure void,29,74
+minecraft:sugar,minecraft_sugar.png,sugar,61,86
+minecraft:sugar_cane,minecraft_sugar_cane.png,sugar cane,97,6
+minecraft:sunflower,minecraft_sunflower.png,sunflower,22,1
+minecraft:suspicious_gravel,minecraft_suspicious_gravel.png,suspicious gravel,55,25
+minecraft:suspicious_sand,minecraft_suspicious_sand.png,suspicious sand,34,99
+minecraft:suspicious_stew,minecraft_suspicious_stew.png,suspicious stew,9,92
+minecraft:sweet_berries,minecraft_sweet_berries.png,sweet berries,16,3
+minecraft:tadpole_bucket,minecraft_tadpole_bucket.png,tadpole bucket,79,90
+minecraft:tadpole_spawn_egg,minecraft_tadpole_spawn_egg.png,tadpole spawn egg,63,73
+minecraft:tall_dry_grass,minecraft_tall_dry_grass.png,tall dry grass,6,30
+minecraft:tall_grass,minecraft_tall_grass.png,tall grass,100,7
+minecraft:target,minecraft_target.png,target,34,58
+minecraft:terracotta,minecraft_terracotta.png,terracotta,40,38
+minecraft:test_block,minecraft_test_block.png,test block,61,23
+minecraft:test_instance_block,minecraft_test_instance_block.png,test instance block,62,33
+minecraft:tide_armor_trim_smithing_template,minecraft_tide_armor_trim_smithing_template.png,tide armor trim smithing template,2,1
+minecraft:tinted_glass,minecraft_tinted_glass.png,tinted glass,50,34
+minecraft:tipped_arrow,minecraft_tipped_arrow.png,tipped arrow,51,25
+minecraft:tnt,minecraft_tnt.png,tnt,2,74
+minecraft:tnt_minecart,minecraft_tnt_minecart.png,tnt minecart,63,12
+minecraft:torch,minecraft_torch.png,torch,16,76
+minecraft:torchflower,minecraft_torchflower.png,torchflower,89,59
+minecraft:torchflower_seeds,minecraft_torchflower_seeds.png,torchflower seeds,50,76
+minecraft:totem_of_undying,minecraft_totem_of_undying.png,totem of undying,46,47
+minecraft:trader_llama_spawn_egg,minecraft_trader_llama_spawn_egg.png,trader llama spawn egg,64,45
+minecraft:trapped_chest,minecraft_trapped_chest.png,trapped chest,78,46
+minecraft:trial_key,minecraft_trial_key.png,trial key,84,89
+minecraft:trial_spawner,minecraft_trial_spawner.png,trial spawner,89,29
+minecraft:trident,minecraft_trident.png,trident,16,95
+minecraft:tripwire_hook,minecraft_tripwire_hook.png,tripwire hook,55,12
+minecraft:tropical_fish,minecraft_tropical_fish.png,tropical fish,76,27
+minecraft:tropical_fish_bucket,minecraft_tropical_fish_bucket.png,tropical fish bucket,41,65
+minecraft:tropical_fish_spawn_egg,minecraft_tropical_fish_spawn_egg.png,tropical fish spawn egg,0,92
+minecraft:tube_coral,minecraft_tube_coral.png,tube coral,47,93
+minecraft:tube_coral_block,minecraft_tube_coral_block.png,tube coral block,87,0
+minecraft:tube_coral_fan,minecraft_tube_coral_fan.png,tube coral fan,6,53
+minecraft:tuff,minecraft_tuff.png,tuff,86,13
+minecraft:tuff_bricks,minecraft_tuff_bricks.png,tuff bricks,83,99
+minecraft:tuff_brick_slab,minecraft_tuff_brick_slab.png,tuff brick slab,44,76
+minecraft:tuff_brick_stairs,minecraft_tuff_brick_stairs.png,tuff brick stairs,83,100
+minecraft:tuff_brick_wall,minecraft_tuff_brick_wall.png,tuff brick wall,0,5
+minecraft:tuff_slab,minecraft_tuff_slab.png,tuff slab,40,62
+minecraft:tuff_stairs,minecraft_tuff_stairs.png,tuff stairs,73,1
+minecraft:tuff_wall,minecraft_tuff_wall.png,tuff wall,73,20
+minecraft:turtle_egg,minecraft_turtle_egg.png,turtle egg,99,97
+minecraft:turtle_helmet,minecraft_turtle_helmet.png,turtle helmet,27,78
+minecraft:turtle_scute,minecraft_turtle_scute.png,turtle scute,33,10
+minecraft:turtle_spawn_egg,minecraft_turtle_spawn_egg.png,turtle spawn egg,62,65
+minecraft:twisting_vines,minecraft_twisting_vines.png,twisting vines,98,58
+minecraft:vault,minecraft_vault.png,vault,95,31
+minecraft:verdant_froglight,minecraft_verdant_froglight.png,verdant froglight,95,68
+minecraft:vex_armor_trim_smithing_template,minecraft_vex_armor_trim_smithing_template.png,vex armor trim smithing template,27,57
+minecraft:vex_spawn_egg,minecraft_vex_spawn_egg.png,vex spawn egg,21,55
+minecraft:villager_spawn_egg,minecraft_villager_spawn_egg.png,villager spawn egg,48,54
+minecraft:vindicator_spawn_egg,minecraft_vindicator_spawn_egg.png,vindicator spawn egg,37,41
+minecraft:vine,minecraft_vine.png,vine,31,62
+minecraft:wandering_trader_spawn_egg,minecraft_wandering_trader_spawn_egg.png,wandering trader spawn egg,5,75
+minecraft:warden_spawn_egg,minecraft_warden_spawn_egg.png,warden spawn egg,95,24
+minecraft:ward_armor_trim_smithing_template,minecraft_ward_armor_trim_smithing_template.png,ward armor trim smithing template,74,58
+minecraft:warped_button,minecraft_warped_button.png,warped button,67,84
+minecraft:warped_door,minecraft_warped_door.png,warped door,8,80
+minecraft:warped_fence,minecraft_warped_fence.png,warped fence,89,36
+minecraft:warped_fence_gate,minecraft_warped_fence_gate.png,warped fence gate,32,99
+minecraft:warped_fungus,minecraft_warped_fungus.png,warped fungus,38,91
+minecraft:warped_fungus_on_a_stick,minecraft_warped_fungus_on_a_stick.png,warped fungus on a stick,0,55
+minecraft:warped_hanging_sign,minecraft_warped_hanging_sign.png,warped hanging sign,21,75
+minecraft:warped_hyphae,minecraft_warped_hyphae.png,warped hyphae,2,26
+minecraft:warped_nylium,minecraft_warped_nylium.png,warped nylium,43,65
+minecraft:warped_planks,minecraft_warped_planks.png,warped planks,33,54
+minecraft:warped_pressure_plate,minecraft_warped_pressure_plate.png,warped pressure plate,5,81
+minecraft:warped_roots,minecraft_warped_roots.png,warped roots,6,26
+minecraft:warped_sign,minecraft_warped_sign.png,warped sign,20,65
+minecraft:warped_slab,minecraft_warped_slab.png,warped slab,77,19
+minecraft:warped_stairs,minecraft_warped_stairs.png,warped stairs,88,85
+minecraft:warped_stem,minecraft_warped_stem.png,warped stem,40,57
+minecraft:warped_trapdoor,minecraft_warped_trapdoor.png,warped trapdoor,4,35
+minecraft:warped_wart_block,minecraft_warped_wart_block.png,warped wart block,88,78
+minecraft:water_bucket,minecraft_water_bucket.png,water bucket,66,39
+minecraft:waxed_chiseled_copper,minecraft_waxed_chiseled_copper.png,waxed chiseled copper,65,43
+minecraft:waxed_copper_block,minecraft_waxed_copper_block.png,waxed copper block,8,88
+minecraft:waxed_copper_bulb,minecraft_waxed_copper_bulb.png,waxed copper bulb,7,99
+minecraft:waxed_copper_door,minecraft_waxed_copper_door.png,waxed copper door,24,2
+minecraft:waxed_copper_grate,minecraft_waxed_copper_grate.png,waxed copper grate,88,48
+minecraft:waxed_copper_trapdoor,minecraft_waxed_copper_trapdoor.png,waxed copper trapdoor,43,63
+minecraft:waxed_cut_copper,minecraft_waxed_cut_copper.png,waxed cut copper,100,76
+minecraft:waxed_cut_copper_slab,minecraft_waxed_cut_copper_slab.png,waxed cut copper slab,68,69
+minecraft:waxed_cut_copper_stairs,minecraft_waxed_cut_copper_stairs.png,waxed cut copper stairs,35,6
+minecraft:waxed_exposed_chiseled_copper,minecraft_waxed_exposed_chiseled_copper.png,waxed exposed chiseled copper,39,52
+minecraft:waxed_exposed_copper,minecraft_waxed_exposed_copper.png,waxed exposed copper,33,79
+minecraft:waxed_exposed_copper_bulb,minecraft_waxed_exposed_copper_bulb.png,waxed exposed copper bulb,92,52
+minecraft:waxed_exposed_copper_door,minecraft_waxed_exposed_copper_door.png,waxed exposed copper door,97,67
+minecraft:waxed_exposed_copper_grate,minecraft_waxed_exposed_copper_grate.png,waxed exposed copper grate,57,90
+minecraft:waxed_exposed_copper_trapdoor,minecraft_waxed_exposed_copper_trapdoor.png,waxed exposed copper trapdoor,88,89
+minecraft:waxed_exposed_cut_copper,minecraft_waxed_exposed_cut_copper.png,waxed exposed cut copper,27,35
+minecraft:waxed_exposed_cut_copper_slab,minecraft_waxed_exposed_cut_copper_slab.png,waxed exposed cut copper slab,26,81
+minecraft:waxed_exposed_cut_copper_stairs,minecraft_waxed_exposed_cut_copper_stairs.png,waxed exposed cut copper stairs,93,59
+minecraft:waxed_oxidized_chiseled_copper,minecraft_waxed_oxidized_chiseled_copper.png,waxed oxidized chiseled copper,51,1
+minecraft:waxed_oxidized_copper,minecraft_waxed_oxidized_copper.png,waxed oxidized copper,22,98
+minecraft:waxed_oxidized_copper_bulb,minecraft_waxed_oxidized_copper_bulb.png,waxed oxidized copper bulb,5,40
+minecraft:waxed_oxidized_copper_door,minecraft_waxed_oxidized_copper_door.png,waxed oxidized copper door,78,30
+minecraft:waxed_oxidized_copper_grate,minecraft_waxed_oxidized_copper_grate.png,waxed oxidized copper grate,57,70
+minecraft:waxed_oxidized_copper_trapdoor,minecraft_waxed_oxidized_copper_trapdoor.png,waxed oxidized copper trapdoor,46,46
+minecraft:waxed_oxidized_cut_copper,minecraft_waxed_oxidized_cut_copper.png,waxed oxidized cut copper,75,72
+minecraft:waxed_oxidized_cut_copper_slab,minecraft_waxed_oxidized_cut_copper_slab.png,waxed oxidized cut copper slab,78,66
+minecraft:waxed_oxidized_cut_copper_stairs,minecraft_waxed_oxidized_cut_copper_stairs.png,waxed oxidized cut copper stairs,77,7
+minecraft:waxed_weathered_chiseled_copper,minecraft_waxed_weathered_chiseled_copper.png,waxed weathered chiseled copper,63,100
+minecraft:waxed_weathered_copper,minecraft_waxed_weathered_copper.png,waxed weathered copper,19,48
+minecraft:waxed_weathered_copper_bulb,minecraft_waxed_weathered_copper_bulb.png,waxed weathered copper bulb,58,88
+minecraft:waxed_weathered_copper_door,minecraft_waxed_weathered_copper_door.png,waxed weathered copper door,5,99
+minecraft:waxed_weathered_copper_grate,minecraft_waxed_weathered_copper_grate.png,waxed weathered copper grate,1,48
+minecraft:waxed_weathered_copper_trapdoor,minecraft_waxed_weathered_copper_trapdoor.png,waxed weathered copper trapdoor,77,52
+minecraft:waxed_weathered_cut_copper,minecraft_waxed_weathered_cut_copper.png,waxed weathered cut copper,61,93
+minecraft:waxed_weathered_cut_copper_slab,minecraft_waxed_weathered_cut_copper_slab.png,waxed weathered cut copper slab,68,29
+minecraft:waxed_weathered_cut_copper_stairs,minecraft_waxed_weathered_cut_copper_stairs.png,waxed weathered cut copper stairs,11,71
+minecraft:wayfinder_armor_trim_smithing_template,minecraft_wayfinder_armor_trim_smithing_template.png,wayfinder armor trim smithing template,33,21
+minecraft:weathered_chiseled_copper,minecraft_weathered_chiseled_copper.png,weathered chiseled copper,83,81
+minecraft:weathered_copper,minecraft_weathered_copper.png,weathered copper,68,93
+minecraft:weathered_copper_bulb,minecraft_weathered_copper_bulb.png,weathered copper bulb,60,59
+minecraft:weathered_copper_door,minecraft_weathered_copper_door.png,weathered copper door,75,83
+minecraft:weathered_copper_grate,minecraft_weathered_copper_grate.png,weathered copper grate,45,28
+minecraft:weathered_copper_trapdoor,minecraft_weathered_copper_trapdoor.png,weathered copper trapdoor,76,100
+minecraft:weathered_cut_copper,minecraft_weathered_cut_copper.png,weathered cut copper,69,52
+minecraft:weathered_cut_copper_slab,minecraft_weathered_cut_copper_slab.png,weathered cut copper slab,36,28
+minecraft:weathered_cut_copper_stairs,minecraft_weathered_cut_copper_stairs.png,weathered cut copper stairs,53,48
+minecraft:weeping_vines,minecraft_weeping_vines.png,weeping vines,94,37
+minecraft:wet_sponge,minecraft_wet_sponge.png,wet sponge,23,48
+minecraft:wheat,minecraft_wheat.png,wheat,32,16
+minecraft:wheat_seeds,minecraft_wheat_seeds.png,wheat seeds,63,21
+minecraft:white_banner,minecraft_white_banner.png,white banner,17,13
+minecraft:white_bed,minecraft_white_bed.png,white bed,82,92
+minecraft:white_bundle,minecraft_white_bundle.png,white bundle,44,44
+minecraft:white_candle,minecraft_white_candle.png,white candle,98,32
+minecraft:white_carpet,minecraft_white_carpet.png,white carpet,63,75
+minecraft:white_concrete,minecraft_white_concrete.png,white concrete,38,7
+minecraft:white_concrete_powder,minecraft_white_concrete_powder.png,white concrete powder,76,44
+minecraft:white_dye,minecraft_white_dye.png,white dye,48,43
+minecraft:white_glazed_terracotta,minecraft_white_glazed_terracotta.png,white glazed terracotta,10,84
+minecraft:white_shulker_box,minecraft_white_shulker_box.png,white shulker box,66,11
+minecraft:white_stained_glass,minecraft_white_stained_glass.png,white stained glass,23,23
+minecraft:white_stained_glass_pane,minecraft_white_stained_glass_pane.png,white stained glass pane,26,94
+minecraft:white_terracotta,minecraft_white_terracotta.png,white terracotta,2,22
+minecraft:white_tulip,minecraft_white_tulip.png,white tulip,41,48
+minecraft:white_wool,minecraft_white_wool.png,white wool,47,78
+minecraft:wildflowers,minecraft_wildflowers.png,wildflowers,69,88
+minecraft:wild_armor_trim_smithing_template,minecraft_wild_armor_trim_smithing_template.png,wild armor trim smithing template,39,54
+minecraft:wind_charge,minecraft_wind_charge.png,wind charge,85,14
+minecraft:witch_spawn_egg,minecraft_witch_spawn_egg.png,witch spawn egg,49,6
+minecraft:wither_rose,minecraft_wither_rose.png,wither rose,80,59
+minecraft:wither_skeleton_skull,minecraft_wither_skeleton_skull.png,wither skeleton skull,57,38
+minecraft:wither_skeleton_spawn_egg,minecraft_wither_skeleton_spawn_egg.png,wither skeleton spawn egg,29,30
+minecraft:wither_spawn_egg,minecraft_wither_spawn_egg.png,wither spawn egg,17,56
+minecraft:wolf_armor,minecraft_wolf_armor.png,wolf armor,7,71
+minecraft:wolf_spawn_egg,minecraft_wolf_spawn_egg.png,wolf spawn egg,33,90
+minecraft:wooden_axe,minecraft_wooden_axe.png,wooden axe,76,63
+minecraft:wooden_hoe,minecraft_wooden_hoe.png,wooden hoe,5,45
+minecraft:wooden_pickaxe,minecraft_wooden_pickaxe.png,wooden pickaxe,28,30
+minecraft:wooden_shovel,minecraft_wooden_shovel.png,wooden shovel,18,76
+minecraft:wooden_sword,minecraft_wooden_sword.png,wooden sword,5,29
+minecraft:writable_book,minecraft_writable_book.png,writable book,40,43
+minecraft:written_book,minecraft_written_book.png,written book,62,82
+minecraft:yellow_banner,minecraft_yellow_banner.png,yellow banner,89,78
+minecraft:yellow_bed,minecraft_yellow_bed.png,yellow bed,60,18
+minecraft:yellow_bundle,minecraft_yellow_bundle.png,yellow bundle,58,86
+minecraft:yellow_candle,minecraft_yellow_candle.png,yellow candle,97,1
+minecraft:yellow_carpet,minecraft_yellow_carpet.png,yellow carpet,51,21
+minecraft:yellow_concrete,minecraft_yellow_concrete.png,yellow concrete,53,58
+minecraft:yellow_concrete_powder,minecraft_yellow_concrete_powder.png,yellow concrete powder,93,45
+minecraft:yellow_dye,minecraft_yellow_dye.png,yellow dye,56,89
+minecraft:yellow_glazed_terracotta,minecraft_yellow_glazed_terracotta.png,yellow glazed terracotta,10,74
+minecraft:yellow_shulker_box,minecraft_yellow_shulker_box.png,yellow shulker box,23,60
+minecraft:yellow_stained_glass,minecraft_yellow_stained_glass.png,yellow stained glass,83,27
+minecraft:yellow_stained_glass_pane,minecraft_yellow_stained_glass_pane.png,yellow stained glass pane,3,8
+minecraft:yellow_terracotta,minecraft_yellow_terracotta.png,yellow terracotta,57,40
+minecraft:yellow_wool,minecraft_yellow_wool.png,yellow wool,72,95
+minecraft:zoglin_spawn_egg,minecraft_zoglin_spawn_egg.png,zoglin spawn egg,83,68
+minecraft:zombie_head,minecraft_zombie_head.png,zombie head,50,81
+minecraft:zombie_horse_spawn_egg,minecraft_zombie_horse_spawn_egg.png,zombie horse spawn egg,11,96
+minecraft:zombie_spawn_egg,minecraft_zombie_spawn_egg.png,zombie spawn egg,82,12
+minecraft:zombie_villager_spawn_egg,minecraft_zombie_villager_spawn_egg.png,zombie villager spawn egg,11,92
+minecraft:zombified_piglin_spawn_egg,minecraft_zombified_piglin_spawn_egg.png,zombified piglin spawn egg,93,17

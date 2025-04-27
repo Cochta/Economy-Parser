@@ -11,7 +11,7 @@ namespace Metrics {
 	constexpr float MARGIN = 10;
 	constexpr float HEADER_HEIGHT = 30;
 	constexpr float NAME_OFFSET = 70;
-	constexpr float NAME_WIDTH = 530;
+	constexpr float NAME_WIDTH = 550;
 	constexpr float ECONOMY_WIDTH = 100;
 	constexpr float TEXTBOX_WIDTH = 200;
 

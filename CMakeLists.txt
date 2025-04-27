@@ -47,12 +47,6 @@ target_link_libraries(Common PUBLIC raylib fmt::fmt)
 add_executable(main main.cpp)
 target_link_libraries(main PRIVATE Common)
 
-if (BUILD_WEB)
-    # The local resources path needs to be mapped to /data virtual path
-    string(APPEND data_dir "@data")
-    set_target_properties(main PROPERTIES LINK_FLAGS "--preload-file ${data_dir}")
-endif ()
-
 if(BUILD_RELEASE)
     set(RESSOURCE_DEST "${CMAKE_CURRENT_BINARY_DIR}/Release/ressource/")
     set(DATA_DEST "${CMAKE_CURRENT_BINARY_DIR}/Release/data/")
@@ -66,3 +60,10 @@ set(DATA_SOURCE "${CMAKE_CURRENT_SOURCE_DIR}/data/")
 
 file(COPY "${RESSOURCE_SOURCE}" DESTINATION "${RESSOURCE_DEST}")
 file(COPY "${DATA_SOURCE}" DESTINATION "${DATA_DEST}")
+
+if (BUILD_WEB)
+    # The local resources path needs to be mapped to /data virtual path
+    string(APPEND data_dir "@data")
+    string(APPEND ressource_dir "@ressource")
+    set_target_properties(main PROPERTIES LINK_FLAGS "--preload-file ${data_dir}")
+endif ()

@@ -6,9 +6,14 @@ void Renderer::Setup() {
 	Loader loader;
 	for (auto& item : parser.AllItems)
 	{
+		if (!item.IsValid())
+		{
+			continue;
+		}
 		MyImage image = loader.loadImage("Release/ressource/1.21.5/" + item.ImagePath, { IMAGE_SIZE, IMAGE_SIZE }, Offset::TopLeft);
 		images.emplace(item.Id, image);
 	}
+	parser.SortAlphabetically(false);
 }
 
 void Renderer::TearDown() {
@@ -21,104 +26,9 @@ void Renderer::Draw(void) {
 		ClearBackground(GRAY);
 		mousePos = GetMousePosition();
 
-		int i = 0;
-		float y = 0;
-
 		maxHeight = HEADER_HEIGHT + MENU_HEIGHT;
 
-		for (auto& item : parser.AllItems) {
-			if (!item.IsValid())
-			{
-				continue;
-			}
-			if (item.Name.find(parser.SearchText) == std::string::npos)
-			{
-				continue;
-			}
-			maxHeight += IMAGE_SIZE;
-
-			float imageY = MENU_HEIGHT + HEADER_HEIGHT + y - scroll;
-
-			Color rectColor = (i % 2 == 0) ? Color{ 245, 245, 220, 255 } : Color{ 210, 180, 140, 255 };
-
-			// Draw background behind text
-			DrawRectangle(0, imageY, WIDTH, IMAGE_SIZE, rectColor);
-			// Draw black border around the rectangle
-			DrawRectangleLinesEx({ 0, imageY, WIDTH, IMAGE_SIZE }, 2.0f, BLACK);
-			//DrawRectangleLines(0, imageY, WIDTH, IMAGE_SIZE, BLACK);
-
-			// Draw background behind each image
-			DrawRectangle(0, imageY, IMAGE_SIZE + MARGIN * 2, IMAGE_SIZE, DARKGRAY);
-			// Draw black border around the rectangle
-			DrawRectangleLinesEx({ 0, imageY, IMAGE_SIZE + MARGIN * 2, IMAGE_SIZE }, 2.0f, BLACK);
-
-			// Draw the image itself
-			images.find(item.Id)->second.Draw({ MARGIN, imageY });
-			//draw text
-			DrawText(item.Name.c_str(), MARGIN + NAME_OFFSET, imageY + MARGIN * 1.8f, FONT_SIZE, BLACK);
-			DrawText(std::to_string(item.Quantity).c_str(), MARGIN + NAME_OFFSET + NAME_WIDTH, imageY + MARGIN * 1.8f, FONT_SIZE, BLACK);
-			DrawText(std::to_string(item.Price).c_str(), MARGIN + NAME_OFFSET + NAME_WIDTH + ECONOMY_WIDTH, imageY + MARGIN * 1.8f, FONT_SIZE, BLACK);
-
-
-			// Checkbox position
-			float checkboxSize = 20;
-			float checkboxX = MARGIN + NAME_OFFSET + NAME_WIDTH + ECONOMY_WIDTH * 2;
-			float checkboxY = imageY + MARGIN * 1.8f;
-
-			// Mouse check
-			Rectangle checkboxRect = { checkboxX, checkboxY, checkboxSize, checkboxSize };
-			bool hovered = CheckCollisionPointRec(GetMousePosition(), checkboxRect);
-
-			// Draw checkbox background
-			DrawRectangleRec(checkboxRect, hovered ? LIGHTGRAY : GRAY);
-
-			// If checked, draw checkmark
-			if (item.IsStackable)
-			{
-				DrawLineEx({ checkboxX + 4, checkboxY + 4 }, { checkboxX + checkboxSize - 4, checkboxY + checkboxSize - 4 }, 3.f, BLACK);
-				DrawLineEx({ checkboxX + 4, checkboxY + checkboxSize - 4 }, { checkboxX + checkboxSize - 4, checkboxY + 4 }, 3.f, BLACK);
-			}
-
-			// Handle click
-			if (hovered && IsMouseButtonPressed(MOUSE_LEFT_BUTTON))
-			{
-				item.IsStackable = !item.IsStackable;
-				item.Parse();
-			}
-			std::string stackText;
-			if (std::floor(item.StackPrice) == item.StackPrice)
-			{
-				stackText = fmt::format("{}", static_cast<int>(item.StackPrice)); // no decimals
-			}
-			else
-			{
-				stackText = fmt::format("{:.1f}", item.StackPrice); // 2 decimals
-			}
-			std::string shulkerText;
-			if (std::floor(item.ShulkerPrice) == item.ShulkerPrice)
-			{
-				shulkerText = fmt::format("{}", static_cast<int>(item.ShulkerPrice)); // no decimals
-			}
-			else
-			{
-				shulkerText = fmt::format("{:.1f}", item.ShulkerPrice); // 2 decimals
-			}
-			std::string dcText;
-			if (std::floor(item.DCPrice) == item.DCPrice)
-			{
-				dcText = fmt::format("{}", static_cast<int>(item.DCPrice)); // no decimals
-			}
-			else
-			{
-				dcText = fmt::format("{:.1f}", item.DCPrice); // 2 decimals
-			}
-			DrawText(stackText.c_str(), MARGIN + NAME_OFFSET + NAME_WIDTH + ECONOMY_WIDTH * 3, imageY + MARGIN * 1.8f, FONT_SIZE, BLACK);
-			DrawText(shulkerText.c_str(), MARGIN + NAME_OFFSET + NAME_WIDTH + ECONOMY_WIDTH * 4, imageY + MARGIN * 1.8f, FONT_SIZE, BLACK);
-			DrawText(dcText.c_str(), MARGIN + NAME_OFFSET + NAME_WIDTH + ECONOMY_WIDTH * 5, imageY + MARGIN * 1.8f, FONT_SIZE, BLACK);
-
-			y += IMAGE_SIZE;
-			i++;
-		}
+		DrawItems();
 
 		float wheelMove = GetMouseWheelMove();
 		if (wheelMove != 0.0f) {
@@ -172,6 +82,151 @@ void Renderer::DrawMenu() {
 			if (len > 0) parser.SearchText[len - 1] = '\0';
 		}
 	}
+	// Sort Alphabetically checkbox
+
+	// Checkbox position
+	float checkboxSize = 20;
+	float checkboxX = MARGIN * 4 + IMAGE_SIZE + textBox.width;
+	float checkboxY = MARGIN * 2;
+
+	// Mouse check
+	Rectangle checkboxRect = { checkboxX, checkboxY, checkboxSize, checkboxSize };
+	bool hovered = CheckCollisionPointRec(GetMousePosition(), checkboxRect);
+
+	// Draw checkbox background
+	DrawRectangleRec(checkboxRect, hovered ? DARKGRAY : GRAY);
+
+	// If checked, draw checkmark
+	static bool sortAscendingName = false;
+
+	// Handle click
+	if (hovered && IsMouseButtonPressed(MOUSE_LEFT_BUTTON))
+	{
+		sortAscendingName = !sortAscendingName;
+		parser.SortAlphabetically(sortAscendingName);
+	}
+
+	// Draw checkmark
+	if (sortAscendingName)
+	{
+		DrawLineEx({ checkboxX + 4, checkboxY + 4 }, { checkboxX + checkboxSize - 9, checkboxY + checkboxSize - 9 }, 3.f, BLACK);
+		DrawLineEx({ checkboxX + 9, checkboxY + checkboxSize - 9 }, { checkboxX + checkboxSize - 4, checkboxY + 4 }, 3.f, BLACK);
+	}
+	else
+	{
+		DrawLineEx({ checkboxX + 9, checkboxY + 9 }, { checkboxX + checkboxSize - 4, checkboxY + checkboxSize - 4 }, 3.f, BLACK);
+		DrawLineEx({ checkboxX + 4, checkboxY + checkboxSize - 4 }, { checkboxX + checkboxSize - 9, checkboxY + 9 }, 3.f, BLACK);
+	}
+
+	// Sort By Quantity checkbox
+
+	// Checkbox position
+	checkboxX = MARGIN + NAME_OFFSET + NAME_WIDTH;
+	checkboxY = MARGIN * 2;
+
+	// Mouse check
+	checkboxRect = { checkboxX, checkboxY, checkboxSize, checkboxSize };
+	hovered = CheckCollisionPointRec(GetMousePosition(), checkboxRect);
+
+	// Draw checkbox background
+	DrawRectangleRec(checkboxRect, hovered ? DARKGRAY : GRAY);
+
+	// If checked, draw checkmark
+	static bool sortAscendingQuantity = false;
+
+	// Handle click
+	if (hovered && IsMouseButtonPressed(MOUSE_LEFT_BUTTON))
+	{
+		sortAscendingQuantity = !sortAscendingQuantity;
+		parser.SortByQuantity(sortAscendingQuantity);
+	}
+
+	// Draw checkmark
+	if (sortAscendingQuantity)
+	{
+		DrawLineEx({ checkboxX + 4, checkboxY + 4 }, { checkboxX + checkboxSize - 9, checkboxY + checkboxSize - 9 }, 3.f, BLACK);
+		DrawLineEx({ checkboxX + 9, checkboxY + checkboxSize - 9 }, { checkboxX + checkboxSize - 4, checkboxY + 4 }, 3.f, BLACK);
+	}
+	else
+	{
+		DrawLineEx({ checkboxX + 9, checkboxY + 9 }, { checkboxX + checkboxSize - 4, checkboxY + checkboxSize - 4 }, 3.f, BLACK);
+		DrawLineEx({ checkboxX + 4, checkboxY + checkboxSize - 4 }, { checkboxX + checkboxSize - 9, checkboxY + 9 }, 3.f, BLACK);
+
+	}
+
+	// Sort By Price checkbox
+
+	// Checkbox position
+	checkboxX = MARGIN + NAME_OFFSET + NAME_WIDTH + ECONOMY_WIDTH;
+	checkboxY = MARGIN * 2;
+
+	// Mouse check
+	checkboxRect = { checkboxX, checkboxY, checkboxSize, checkboxSize };
+	hovered = CheckCollisionPointRec(GetMousePosition(), checkboxRect);
+
+	// Draw checkbox background
+	DrawRectangleRec(checkboxRect, hovered ? DARKGRAY : GRAY);
+
+	// If checked, draw checkmark
+	static bool sortAscendingPrice = false;
+
+	// Handle click
+	if (hovered && IsMouseButtonPressed(MOUSE_LEFT_BUTTON))
+	{
+		sortAscendingPrice = !sortAscendingPrice;
+		parser.SortByPrice(sortAscendingPrice);
+	}
+
+	// Draw checkmark
+	if (sortAscendingPrice)
+	{
+		DrawLineEx({ checkboxX + 4, checkboxY + 4 }, { checkboxX + checkboxSize - 9, checkboxY + checkboxSize - 9 }, 3.f, BLACK);
+		DrawLineEx({ checkboxX + 9, checkboxY + checkboxSize - 9 }, { checkboxX + checkboxSize - 4, checkboxY + 4 }, 3.f, BLACK);
+	}
+	else
+	{
+		DrawLineEx({ checkboxX + 9, checkboxY + 9 }, { checkboxX + checkboxSize - 4, checkboxY + checkboxSize - 4 }, 3.f, BLACK);
+		DrawLineEx({ checkboxX + 4, checkboxY + checkboxSize - 4 }, { checkboxX + checkboxSize - 9, checkboxY + 9 }, 3.f, BLACK);
+
+	}
+
+	// Sort By Rentability checkbox
+
+	// Checkbox position
+	checkboxX = MARGIN + NAME_OFFSET + NAME_WIDTH + ECONOMY_WIDTH * 3;
+	checkboxY = MARGIN * 2;
+
+	// Mouse check
+	checkboxRect = { checkboxX, checkboxY, checkboxSize, checkboxSize };
+	hovered = CheckCollisionPointRec(GetMousePosition(), checkboxRect);
+
+	// Draw checkbox background
+	DrawRectangleRec(checkboxRect, hovered ? DARKGRAY : GRAY);
+
+	// If checked, draw checkmark
+	static bool sortAscendingRentability = false;
+
+	// Handle click
+	if (hovered && IsMouseButtonPressed(MOUSE_LEFT_BUTTON))
+	{
+		sortAscendingRentability = !sortAscendingRentability;
+		parser.SortByRentability(sortAscendingRentability);
+	}
+
+	// Draw checkmark
+	if (sortAscendingRentability)
+	{
+		DrawLineEx({ checkboxX + 4, checkboxY + 4 }, { checkboxX + checkboxSize - 9, checkboxY + checkboxSize - 9 }, 3.f, BLACK);
+		DrawLineEx({ checkboxX + 9, checkboxY + checkboxSize - 9 }, { checkboxX + checkboxSize - 4, checkboxY + 4 }, 3.f, BLACK);
+	}
+	else
+	{
+		DrawLineEx({ checkboxX + 9, checkboxY + 9 }, { checkboxX + checkboxSize - 4, checkboxY + checkboxSize - 4 }, 3.f, BLACK);
+		DrawLineEx({ checkboxX + 4, checkboxY + checkboxSize - 4 }, { checkboxX + checkboxSize - 9, checkboxY + 9 }, 3.f, BLACK);
+
+	}
+
+
 
 	// Exit button
 	float exitX = WIDTH - BUTTON_WIDTH - SCROLLBAR_WIDTH - MARGIN;
@@ -234,6 +289,106 @@ void Renderer::DrawHeader()
 	DrawText("Price", MARGIN + NAME_OFFSET + NAME_WIDTH + ECONOMY_WIDTH, MENU_HEIGHT + MARGIN * 0.6, FONT_SIZE * 0.6, WHITE);
 	DrawText("Stackable", MARGIN + NAME_OFFSET + NAME_WIDTH + ECONOMY_WIDTH * 2, MENU_HEIGHT + MARGIN * 0.6, FONT_SIZE * 0.6, WHITE);
 	DrawText("Stack", MARGIN + NAME_OFFSET + NAME_WIDTH + ECONOMY_WIDTH * 3, MENU_HEIGHT + MARGIN * 0.6, FONT_SIZE * 0.6, WHITE);
-	DrawText("Shulker", MARGIN + NAME_OFFSET + NAME_WIDTH + ECONOMY_WIDTH * 4, MENU_HEIGHT + MARGIN * 0.6, FONT_SIZE * 0.6, WHITE);
-	DrawText("DC", MARGIN + NAME_OFFSET + NAME_WIDTH + ECONOMY_WIDTH * 5, MENU_HEIGHT + MARGIN * 0.6, FONT_SIZE * 0.6, WHITE);
+	DrawText("Shulker", MARGIN * 5 + NAME_OFFSET + NAME_WIDTH + ECONOMY_WIDTH * 4, MENU_HEIGHT + MARGIN * 0.6, FONT_SIZE * 0.6, WHITE);
+	DrawText("DC", MARGIN * 10 + NAME_OFFSET + NAME_WIDTH + ECONOMY_WIDTH * 5, MENU_HEIGHT + MARGIN * 0.6, FONT_SIZE * 0.6, WHITE);
+}
+
+void Renderer::DrawItems()
+{
+	int i = 0;
+	float y = 0;
+	for (auto& item : parser.AllItems) {
+		if (!item.IsValid())
+		{
+			continue;
+		}
+		if (item.Name.find(parser.SearchText) == std::string::npos)
+		{
+			continue;
+		}
+		maxHeight += IMAGE_SIZE;
+
+		float imageY = MENU_HEIGHT + HEADER_HEIGHT + y - scroll;
+
+		Color rectColor = (i % 2 == 0) ? Color{ 245, 245, 220, 255 } : Color{ 210, 180, 140, 255 };
+
+		// Draw background behind text
+		DrawRectangle(0, imageY, WIDTH, IMAGE_SIZE, rectColor);
+		// Draw black border around the rectangle
+		DrawRectangleLinesEx({ 0, imageY, WIDTH, IMAGE_SIZE }, 2.0f, BLACK);
+		//DrawRectangleLines(0, imageY, WIDTH, IMAGE_SIZE, BLACK);
+
+		// Draw background behind each image
+		DrawRectangle(0, imageY, IMAGE_SIZE + MARGIN * 2, IMAGE_SIZE, DARKGRAY);
+		// Draw black border around the rectangle
+		DrawRectangleLinesEx({ 0, imageY, IMAGE_SIZE + MARGIN * 2, IMAGE_SIZE }, 2.0f, BLACK);
+
+		// Draw the image itself
+		images.find(item.Id)->second.Draw({ MARGIN, imageY });
+		//draw text
+		DrawText(item.Name.c_str(), MARGIN + NAME_OFFSET, imageY + MARGIN * 1.8f, FONT_SIZE, BLACK);
+		DrawText(std::to_string(item.Quantity).c_str(), MARGIN + NAME_OFFSET + NAME_WIDTH, imageY + MARGIN * 1.8f, FONT_SIZE, BLACK);
+		DrawText(std::to_string(item.Price).c_str(), MARGIN + NAME_OFFSET + NAME_WIDTH + ECONOMY_WIDTH, imageY + MARGIN * 1.8f, FONT_SIZE, BLACK);
+
+
+		// Checkbox position
+		float checkboxSize = 20;
+		float checkboxX = MARGIN + NAME_OFFSET + NAME_WIDTH + ECONOMY_WIDTH * 2;
+		float checkboxY = imageY + MARGIN * 1.8f;
+
+		// Mouse check
+		Rectangle checkboxRect = { checkboxX, checkboxY, checkboxSize, checkboxSize };
+		bool hovered = CheckCollisionPointRec(GetMousePosition(), checkboxRect);
+
+		// Draw checkbox background
+		DrawRectangleRec(checkboxRect, hovered ? LIGHTGRAY : GRAY);
+
+		// If checked, draw checkmark
+		if (item.IsStackable)
+		{
+			DrawLineEx({ checkboxX + 4, checkboxY + 4 }, { checkboxX + checkboxSize - 4, checkboxY + checkboxSize - 4 }, 3.f, BLACK);
+			DrawLineEx({ checkboxX + 4, checkboxY + checkboxSize - 4 }, { checkboxX + checkboxSize - 4, checkboxY + 4 }, 3.f, BLACK);
+		}
+
+		// Handle click
+		if (hovered && IsMouseButtonPressed(MOUSE_LEFT_BUTTON))
+		{
+			item.IsStackable = !item.IsStackable;
+			item.Parse();
+		}
+
+		std::string stackText;
+		if (std::floor(item.StackPrice) == item.StackPrice)
+		{
+			stackText = fmt::format("{}", static_cast<int>(item.StackPrice)); // no decimals
+		}
+		else
+		{
+			stackText = fmt::format("{:.1f}", item.StackPrice); // 2 decimals
+		}
+		std::string shulkerText;
+		if (std::floor(item.ShulkerPrice) == item.ShulkerPrice)
+		{
+			shulkerText = fmt::format("{}", static_cast<int>(item.ShulkerPrice)); // no decimals
+		}
+		else
+		{
+			shulkerText = fmt::format("{:.1f}", item.ShulkerPrice); // 2 decimals
+		}
+		std::string dcText;
+		if (std::floor(item.DCPrice) == item.DCPrice)
+		{
+			dcText = fmt::format("{}", static_cast<int>(item.DCPrice)); // no decimals
+		}
+		else
+		{
+			dcText = fmt::format("{:.1f}", item.DCPrice); // 2 decimals
+		}
+		DrawText(stackText.c_str(), MARGIN + NAME_OFFSET + NAME_WIDTH + ECONOMY_WIDTH * 3, imageY + MARGIN * 1.8f, FONT_SIZE, BLACK);
+		DrawText(shulkerText.c_str(), MARGIN * 5 + NAME_OFFSET + NAME_WIDTH + ECONOMY_WIDTH * 4, imageY + MARGIN * 1.8f, FONT_SIZE, BLACK);
+		DrawText(dcText.c_str(), MARGIN * 10 + NAME_OFFSET + NAME_WIDTH + ECONOMY_WIDTH * 5, imageY + MARGIN * 1.8f, FONT_SIZE, BLACK);
+
+		y += IMAGE_SIZE;
+		i++;
+	}
 }

@@ -15,7 +15,7 @@ class Renderer {
 public:
 	Parser parser;
 
-	std::map<std::string,MyImage> images{};
+	std::map<std::string, MyImage> images{};
 
 
 	float maxHeight = Metrics::HEIGTH;
@@ -34,7 +34,10 @@ public:
 
 	void Draw(void);
 	void DrawMenu();
-	void DrawScrollBar();
 	void DrawHeader();
+	void DrawItems();
+	void DrawScrollBar();
+
+	std::string FormatWithSeparator(float value);
 
 };

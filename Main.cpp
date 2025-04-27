@@ -1,5 +1,4 @@
 #include "Renderer.h"
-#include "Parser.h"
 
 int main() {
 	// Initialize the window
@@ -10,13 +9,11 @@ int main() {
 	Renderer renderer;
 	renderer.Setup();
 
-
 	// Main game loop
 	while (!WindowShouldClose()) {
 		renderer.Draw();
 	}
 	// Clean up
 	renderer.TearDown();
-	CloseWindow();
 	return 0;
 }

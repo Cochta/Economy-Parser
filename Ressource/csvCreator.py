@@ -1,5 +1,6 @@
 import os
 import csv
+import random
 
 # The output csv file is structured like this: minecraft:id,texture.png,name,quantity,price
 
@@ -20,6 +21,6 @@ with open(output_csv, mode='w', newline='') as file:
             id =  os.path.splitext(filename)[0].replace('minecraft_','minecraft:')
             name = os.path.splitext(filename)[0].replace('_',' ')
             name = name.replace('minecraft ','')
-            writer.writerow([id, filename, name, 0, 0])
+            writer.writerow([id, filename, name, random.randint(0, 100), random.randint(0, 100)])
 
 print(f"CSV file '{output_csv}' created successfully.")

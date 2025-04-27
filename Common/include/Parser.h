@@ -2,6 +2,7 @@
 
 #include "FileSytem.h"
 #include "Metrics.h"
+#include <algorithm>
 using namespace Metrics;
 
 struct Item
@@ -29,5 +30,13 @@ struct Parser
 {
 	char SearchText[128] = "";
 	std::vector<Item> AllItems;
+
+	void SortAlphabetically(bool isAscending = true);
+	void SortByPrice(bool isAscending = true);
+	void SortByQuantity(bool isAscending = true);
+	void SortByRentability(bool isAscending = true);
+
 	void Setup();
+
+	void TearDown();
 };
