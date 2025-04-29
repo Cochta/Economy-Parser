@@ -2,6 +2,10 @@
 
 
 void Renderer::Setup() {
+	// Initialize the window
+	InitWindow(Metrics::WIDTH, Metrics::HEIGTH, "Ouais");
+	SetTargetFPS(60);
+	// Initialize the images
 	parser.Setup();
 	Loader loader;
 	for (auto& item : parser.AllItems)
