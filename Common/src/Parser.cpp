@@ -50,7 +50,7 @@ void Parser::SortByRentability(bool isAscending)
 
 void Parser::Setup() {
 	Reader reader;
-	auto data = reader.readCSV("Release/data/test.csv");
+	auto data = reader.readCSV("Ressource/Files/test.csv");
 	for (auto& row : data)
 	{
 		Item item;

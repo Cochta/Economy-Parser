@@ -6,7 +6,7 @@ import random
 
 
 # Set the folder path you want to scan
-folder_path = './1.21.5'  # Change this to your actual folder
+folder_path = './Images/1.21.5'  # Change this to your actual folder
 
 # Output CSV file
 output_csv = 'output.csv'

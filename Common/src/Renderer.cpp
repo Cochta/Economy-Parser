@@ -14,7 +14,7 @@ void Renderer::Setup() {
 		{
 			continue;
 		}
-		MyImage image = loader.loadImage("Release/ressource/1.21.5/" + item.ImagePath, { IMAGE_SIZE, IMAGE_SIZE }, Offset::TopLeft);
+		MyImage image = loader.loadImage("Ressource/Images/1.21.5/" + item.ImagePath, { IMAGE_SIZE, IMAGE_SIZE }, Offset::TopLeft);
 		images.emplace(item.Id, image);
 	}
 	parser.SortAlphabetically(false);
