@@ -18,7 +18,9 @@ public:
 	Rectangle source;
 	Rectangle dest;
 
-	void Setup(const char* path, Vector2 size, Offset = Offset::Center);
+	void SetupFromFile(const char* path, Vector2 size, Offset = Offset::Center);
+	void SetupFromAtlas(Texture2D atlas, Rectangle sourceRect, Vector2 size, Offset offset = Offset::Center);
+	void HandleOffset(Offset offset = Offset::Center);
 	void TearDown();
 	void Draw(Vector2 position, float rotation = 0);
 };

@@ -1,10 +1,13 @@
 #include "Renderer.h"
+#include <unordered_map>
 
 
 void Renderer::Setup() {
 	// Initialize the window
 	InitWindow(Metrics::WIDTH, Metrics::HEIGTH, "Ouais");
 	SetTargetFPS(60);
+
+	atlasTexture = LoadTexture("Ressource/Images/1.21.5_atlas.png");
 	// Initialize the images
 	parser.Setup();
 	Loader loader;
@@ -14,8 +17,16 @@ void Renderer::Setup() {
 		{
 			continue;
 		}
-		MyImage image = loader.loadImage("Ressource/Images/1.21.5/" + item.ImagePath, { IMAGE_SIZE, IMAGE_SIZE }, Offset::TopLeft);
-		images.emplace(item.Id, image);
+		//MyImage image = loader.loadImage("Ressource/Images/1.21.5/" + item.ImagePath, { IMAGE_SIZE, IMAGE_SIZE }, Offset::TopLeft);
+		for (const auto& sprite : parser.sprites)
+		{
+			if (sprite.filename == item.ImagePath)
+			{
+				MyImage imageTest;
+				imageTest.SetupFromAtlas(atlasTexture, { (float)sprite.x,(float)sprite.y,64,64 }, { IMAGE_SIZE, IMAGE_SIZE }, Offset::TopLeft);
+				images.emplace(item.Id, imageTest);
+			}
+		}
 	}
 	parser.SortAlphabetically(false);
 }

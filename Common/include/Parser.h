@@ -30,6 +30,7 @@ struct Parser
 {
 	char SearchText[128] = "";
 	std::vector<Item> AllItems;
+	std::vector<SpriteDefinition> sprites;
 
 	void SortAlphabetically(bool isAscending = true);
 	void SortByPrice(bool isAscending = true);

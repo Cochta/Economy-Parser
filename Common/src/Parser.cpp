@@ -50,7 +50,7 @@ void Parser::SortByRentability(bool isAscending)
 
 void Parser::Setup() {
 	Reader reader;
-	auto data = reader.readCSV("Ressource/Files/test.csv");
+	auto data = reader.readEconomyCSV("Ressource/Files/1.21.5_economy.csv");
 	for (auto& row : data)
 	{
 		Item item;
@@ -62,6 +62,7 @@ void Parser::Setup() {
 		item.Parse();
 		AllItems.push_back(item);
 	}
+	sprites = reader.ReadAtlasMetaData("Ressource/Files/1.21.5_atlas_metadata.csv");
 }
 
 void Item::Parse()

@@ -1,6 +1,6 @@
 #include "FileSytem.h"
 
-std::vector<std::vector<std::string>> Reader::readCSV(const std::string& fileName)
+std::vector<std::vector<std::string>> Reader::readEconomyCSV(const std::string& fileName)
 {
 	std::vector<std::vector<std::string>> data;
 	std::ifstream file(fileName);
@@ -28,4 +28,29 @@ std::vector<std::vector<std::string>> Reader::readCSV(const std::string& fileNam
 
 	file.close();
 	return data;
+}
+
+std::vector<SpriteDefinition> Reader::ReadAtlasMetaData(const std::string& csvPath)
+{
+	std::vector<SpriteDefinition> sprites;
+	std::ifstream file(csvPath);
+	if (!file.is_open()) {
+		throw std::runtime_error("Failed to open file: " + csvPath);
+	}
+	std::string line;
+	while (std::getline(file, line)) {
+		std::istringstream lineStream(line);
+		std::string cell;
+
+		SpriteDefinition sprite;
+
+		if (std::getline(lineStream, cell, ',')) sprite.filename = cell;
+		if (std::getline(lineStream, cell, ',')) sprite.x = std::stoi(cell);
+		if (std::getline(lineStream, cell, ',')) sprite.y = std::stoi(cell);
+		if (std::getline(lineStream, cell, ',')) sprite.width = std::stoi(cell);
+		if (std::getline(lineStream, cell, ',')) sprite.height = std::stoi(cell);
+		sprites.push_back(sprite);
+	}
+
+	return sprites;
 }

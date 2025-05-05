@@ -17,22 +17,16 @@ endif ()
 
 find_package(raylib CONFIG REQUIRED)
 find_package(fmt CONFIG REQUIRED)
-find_package(imgui CONFIG REQUIRED)
 
-set(ressource_dir "${CMAKE_SOURCE_DIR}/ressource")
- 
-set(data_files)
-file(GLOB_RECURSE DATA_FILES
-            "Data/*.json"
-            "Data/*.csv"
-            "Data/*.xml"
-            )
-list(APPEND data_files ${DATA_FILES})
+set(ressource_dir "${CMAKE_SOURCE_DIR}/Ressource")
 
 set(ressource_files)
 file(GLOB_RECURSE RESSOURCE_FILES
-            "Ressource/*.png"
-            "Ressource/*.jpg"
+            "Ressource/Files/*.json"
+            "Ressource/Files/*.csv"
+            "Ressource/Files/*.xml"
+            "Ressource/Images/*.png"
+            "Ressource/Images/*.jpg"
             )
 list(APPEND ressource_files ${RESSOURCE_FILES})
 
@@ -46,19 +40,20 @@ target_link_libraries(Common PUBLIC raylib fmt::fmt)
 add_executable(main main.cpp)
 target_link_libraries(main PRIVATE Common)
 
+set(RESSOURCE_SOURCE "${CMAKE_CURRENT_SOURCE_DIR}/Ressource/")
+
 # Setup directories
 if (BUILD_WEB)
-    # The local resources path needs to be mapped to virtual path
-     string(APPEND ressource_dir "@ressource")
-     set_target_properties(main PROPERTIES LINK_FLAGS "--preload-file ${ressource_dir}")
+    # Preload the 'Ressource' directory and mount it to '/ressource'
+    set_target_properties(main PROPERTIES LINK_FLAGS "--preload-file Ressource")
 
     set(RESSOURCE_DEST "${CMAKE_CURRENT_BINARY_DIR}/Ressource/")
 elseif(BUILD_RELEASE)
     set(RESSOURCE_DEST "${CMAKE_CURRENT_BINARY_DIR}/Release/Ressource/")
+    file(COPY "${RESSOURCE_SOURCE}" DESTINATION "${CMAKE_CURRENT_BINARY_DIR}/Ressource/")
 else()
     set(RESSOURCE_DEST "${CMAKE_CURRENT_BINARY_DIR}/Debug/Ressource/")
+    file(COPY "${RESSOURCE_SOURCE}" DESTINATION "${CMAKE_CURRENT_BINARY_DIR}/Ressource/")
 endif()
-
-set(RESSOURCE_SOURCE "${CMAKE_CURRENT_SOURCE_DIR}/Ressource/")
 
 file(COPY "${RESSOURCE_SOURCE}" DESTINATION "${RESSOURCE_DEST}")

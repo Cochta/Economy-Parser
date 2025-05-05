@@ -15,8 +15,9 @@ class Renderer {
 public:
 	Parser parser;
 
-	std::map<std::string, MyImage> images{};
+	Texture2D atlasTexture = { 0 };
 
+	std::map<std::string, MyImage> images{};
 
 	float maxHeight = Metrics::HEIGTH;
 
